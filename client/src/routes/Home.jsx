@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Landing from "./components/Landing"
+import Landing from "../components/Landing"
 
 const Home = () => {
   return (
