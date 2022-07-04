@@ -1,12 +1,10 @@
-import React, { Fragment } from 'react';
-import Header from './components/Header';
-
-function App() {
-  return (
-    <Fragment>
-      <Header />
-    </Fragment>
-  );
+import React from "react";
+import Header from "./components/Header";
+const App =() => {
+  return(
+    <div>
+      <Header/>
+    </div>
+  )
 }
-
-export default App;
+export default App
