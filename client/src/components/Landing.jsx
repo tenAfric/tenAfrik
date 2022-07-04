@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Header from './Header'
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <Fragment>
+        <Header/>
+    </Fragment>
   )
 }
 
