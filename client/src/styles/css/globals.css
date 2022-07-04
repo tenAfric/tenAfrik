@@ -1,3 +1,4 @@
+@import url("../poppins.css");
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,7 @@ li {
 
 html, body {
   border-style: border-box;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #010f25;

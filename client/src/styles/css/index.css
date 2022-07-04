@@ -582,6 +582,14 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -598,7 +606,95 @@ video {
   height: 100vh;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .bg-blueBlackLignt {
   --tw-bg-opacity: 1;
   background-color: rgb(2 20 48 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 976px) {
+  .lg\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 480px) {
+    .lg\:container {
+      max-width: 480px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .lg\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 976px) {
+    .lg\:container {
+      max-width: 976px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .lg\:container {
+      max-width: 1440px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 480px) {
+    .xl\:container {
+      max-width: 480px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 976px) {
+    .xl\:container {
+      max-width: 976px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .xl\:container {
+      max-width: 1440px;
+    }
+  }
 }

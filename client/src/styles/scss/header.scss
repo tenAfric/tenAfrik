@@ -1,0 +1,11 @@
+.brand-logo, .navigation{
+    height: 40px;
+    background-color: yellow;
+}
+.header{
+    .header-container{
+        @media(max-width: 1440px) {
+            margin: 0 5% !important;
+        }
+    }
+}
