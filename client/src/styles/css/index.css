@@ -582,6 +582,22 @@ video {
   margin-right: auto;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .bg-blueBlackLignt {
   --tw-bg-opacity: 1;
   background-color: rgb(2 20 48 / var(--tw-bg-opacity));

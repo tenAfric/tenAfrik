@@ -9,8 +9,10 @@ const Header = () => {
         <meta charSet="utf-8" />
         <link rel="canonical" href="http://tenafric.com" />
       </Helmet>
-      <header className="header container mx-auto bg-blueBlackLignt" style={{height: "200px"}}>
+      <header className="header h-16">
+        <div className="container mx-auto">
 
+        </div>
       </header>
     </Fragment>
   )

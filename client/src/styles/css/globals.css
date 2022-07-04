@@ -12,9 +12,9 @@ html, body {
   font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #010f25;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: 100% 215px;
   width: 100%;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
