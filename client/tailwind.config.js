@@ -2,7 +2,6 @@
 module.exports = {
   mode: 'jit',
   content: ["./src/**/*.{html,js}"],
-  purge: ["./src/**/*.{html,js}", "./public/index.html"],
   theme: {
     screens: {
       sm: '480px',
