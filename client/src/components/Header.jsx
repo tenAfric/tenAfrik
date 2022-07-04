@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Helmet from 'react-helmet'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Fragment>
+      <Helmet>
+        <title>holla</title>
+        <meta charSet="utf-8" />
+        <link rel="canonical" href="http://tenafric.com" />
+      </Helmet>
+      <header className="header container mx-auto bg-blueBlackLignt" style={{height: "200px"}}>
+
+      </header>
+    </Fragment>
   )
 }
 
