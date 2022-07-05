@@ -6,6 +6,7 @@ import { StaleWhileRevalidate } from 'workbox-strategies';
 
 clientsClaim();
 
+/* eslint-disable-next-line no-restricted-globals */
 precacheAndRoute(self.__WB_MANIFEST);
 
 const fileExtensionRegexp = new RegExp('/[^/?]+\\.[^/]+$');
@@ -38,6 +39,7 @@ registerRoute(
   })
 );
 
+/* eslint-disable-next-line no-restricted-globals */
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
