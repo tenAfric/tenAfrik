@@ -1,9 +1,15 @@
-import React, { Fragment } from 'react'
+import React, { useState, Fragment, useEffect } from 'react'
 import '../styles/css/header.css'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
+import { ReactComponent as Bars } from '../assets/svg/bars.svg'
+import { ReactComponent as Times } from '../assets/svg/x-mark.svg'
 
 const Header = () => {
+  const[mobi, setMobi] = useState(false)
+  const handleMobiMenu = (e) => {
+    (e==='open')? setMobi(true):setMobi(false)
+  }
   return (
     <Fragment>
       <Helmet>
@@ -18,8 +24,10 @@ const Header = () => {
               <h1 className="logo-text font-bold text-4xl">tenAfric</h1>
             </div>
             <div className="navigation pt-2 flex gap-6 justify-end">
-              <nav className="menu">
+              <nav className={(mobi)?"menu shwMobiMenu":"menu"}>
+                <Times className="closeMobiMenu" onClick={()=>handleMobiMenu('close')}/>
                 <ul className="flex gap-4">
+                  <h2 className="mobiLogo font-bold text-4xl">tenAfric</h2>
                   <li><Link to="/" className="text-1xl nav-links">Home</Link></li>
                   <li><Link to="/about" className="text-1xl nav-links">About</Link></li>
                   <li><Link to="/services" className="text-1xl nav-links">Services</Link></li>
@@ -29,6 +37,7 @@ const Header = () => {
               <div className="header-cta">
                 <Link to="" className="header-cta-btn px-4 py-2">Try Free</Link>
               </div>
+              <Bars className="openMobiMenu" onClick={()=>handleMobiMenu('open')}/>
             </div>
           </div>
         </div>
