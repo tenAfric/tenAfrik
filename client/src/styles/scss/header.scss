@@ -17,6 +17,17 @@
                 .menu{
                     ul{
                         align-items: center;
+                        li{
+                            .nav-links{
+                                letter-spacing: 1.5px;
+                            }
+                        }
+                    }
+                }
+                .header-cta{
+                    .header-cta-btn{
+                        background-color: rgb(79, 96, 255);
+                        border-radius: 6px;
                     }
                 }
             }

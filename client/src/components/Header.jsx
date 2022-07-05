@@ -17,17 +17,17 @@ const Header = () => {
             <div className="brand-logo">
               <h1 className="logo-text font-bold text-4xl">tenAfric</h1>
             </div>
-            <div className="navigation pt-2 flex gap-4 justify-end">
+            <div className="navigation pt-2 flex gap-6 justify-end">
               <nav className="menu">
                 <ul className="flex gap-4">
-                  <li><Link to="#">Home</Link></li>
-                  <li><Link to="#">About</Link></li>
-                  <li><Link to="#">Services</Link></li>
-                  <li><Link to="#">Contact</Link></li>
+                  <li><Link to="/" className="text-1xl nav-links">Home</Link></li>
+                  <li><Link to="/about" className="text-1xl nav-links">About</Link></li>
+                  <li><Link to="/services" className="text-1xl nav-links">Services</Link></li>
+                  <li><Link to="/contact" className="text-1xl nav-links">Contact</Link></li>
                 </ul>
               </nav>
               <div className="header-cta">
-                <Link to="">Try Free</Link>
+                <Link to="" className="header-cta-btn px-4 py-2">Try Free</Link>
               </div>
             </div>
           </div>
