@@ -1,5 +1,8 @@
+//font
+@import url('../poppins.css');
 $bgDarkLight: #011b3f;
 $bgDarkDark: #010f25;
+$colorLight: #f3f3f3;
 
 *{
     padding: 0;
@@ -10,13 +13,14 @@ li{
 }
 html,body{
     border-style: border-box;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: $bgDarkDark;
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 100%;
+    color: $colorLight;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
