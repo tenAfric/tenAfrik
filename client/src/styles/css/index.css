@@ -549,34 +549,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 976px) {
-  .container {
-    max-width: 976px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -590,14 +562,6 @@ video {
   display: grid;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -606,67 +570,54 @@ video {
   height: 100vh;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.items-center {
+  align-items: center;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+.justify-end {
+  justify-content: flex-end;
 }
 
 .gap-4 {
   gap: 1rem;
 }
 
-.bg-blueBlackLignt {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 20 48 / var(--tw-bg-opacity));
+.gap-2 {
+  gap: 0.5rem;
 }
 
-@media (min-width: 976px) {
-  .lg\:container {
-    width: 100%;
-  }
+.pt-2 {
+  padding-top: 0.5rem;
+}
 
-  @media (min-width: 480px) {
-    .lg\:container {
-      max-width: 480px;
-    }
-  }
+.pt-6 {
+  padding-top: 1.5rem;
+}
 
-  @media (min-width: 768px) {
-    .lg\:container {
-      max-width: 768px;
-    }
-  }
+.pt-4 {
+  padding-top: 1rem;
+}
 
-  @media (min-width: 976px) {
-    .lg\:container {
-      max-width: 976px;
-    }
-  }
+.align-middle {
+  vertical-align: middle;
+}
 
-  @media (min-width: 1440px) {
-    .lg\:container {
-      max-width: 1440px;
-    }
-  }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 @media (min-width: 1440px) {

@@ -17,6 +17,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: 50% 0;
   width: 100%;
+  color: #f3f3f3;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;

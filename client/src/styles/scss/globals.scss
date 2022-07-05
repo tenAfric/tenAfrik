@@ -2,6 +2,7 @@
 @import url('../poppins.css');
 $bgDarkLight: #011b3f;
 $bgDarkDark: #010f25;
+$colorLight: #f3f3f3;
 
 *{
     padding: 0;
@@ -19,6 +20,7 @@ html,body{
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 100%;
+    color: $colorLight;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;

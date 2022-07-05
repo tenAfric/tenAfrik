@@ -1,10 +1,15 @@
 .brand-logo, .navigation {
   height: 40px;
-  background-color: yellow;
 }
 
 @media (max-width: 1440px) {
   .header .header-container {
-    margin: 0 5% !important;
+    margin: 0 10% !important;
   }
+}
+.header .header-container .header-wrapper .navigation {
+  align-items: center;
+}
+.header .header-container .header-wrapper .navigation .menu ul {
+  align-items: center;
 }/*# sourceMappingURL=header.css.map */
