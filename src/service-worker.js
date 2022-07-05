@@ -30,6 +30,7 @@ registerRoute(
 );
 
 registerRoute(
+  /* eslint-disable-next-line no-restricted-globals */
   ({ url }) => url.origin === self.location.origin && url.pathname.endsWith('.png'),
   new StaleWhileRevalidate({
     cacheName: 'images',
@@ -42,6 +43,7 @@ registerRoute(
 /* eslint-disable-next-line no-restricted-globals */
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
+    /* eslint-disable-next-line no-restricted-globals */
     self.skipWaiting();
   }
 });
