@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="landing-section mt-16">
           <div className="landing-wrapper flex">
             <div className="landing-texts mt-16">
-              <h1 className="landing-txt-header mt-8 text-[3rem]">Expanding your market to greater horizons</h1>
+              <h1 className="landing-txt-header mt-8 text-[3.2rem]">Expanding your market to greater horizons</h1>
               <p className="landing-txt-paragraph mt-8 text-[1.3rem]">At tenAfric, we believe that technology is the future. We are young, daring and we aim at connecting the world through technology.</p>
             </div>
             <div className="landing-image mt-8">

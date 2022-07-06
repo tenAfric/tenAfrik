@@ -649,6 +649,10 @@ video {
   font-size: 3rem;
 }
 
+.text-\[3\.2rem\] {
+  font-size: 3.2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
