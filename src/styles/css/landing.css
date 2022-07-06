@@ -1,12 +1,23 @@
 .landing {
   background: linear-gradient(145deg, #011b3f, #010f25);
 }
+@media (max-width: 480px) {
+  .landing .landing-section {
+    margin-top: 0 !important;
+  }
+}
 .landing .landing-section .landing-wrapper {
   margin: 0 5%;
   justify-content: space-between;
 }
 .landing .landing-section .landing-wrapper .landing-texts {
   width: 40%;
+}
+@media (max-width: 480px) {
+  .landing .landing-section .landing-wrapper .landing-texts {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
   font-weight: 600;
@@ -25,6 +36,11 @@
 .landing .landing-section .landing-wrapper .landing-image {
   width: 40%;
   padding-right: 10%;
+}
+@media (max-width: 480px) {
+  .landing .landing-section .landing-wrapper .landing-image {
+    display: none !important;
+  }
 }
 .landing .landing-section .landing-wrapper .landing-image .img-landing {
   width: 100%;

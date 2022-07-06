@@ -685,6 +685,12 @@ video {
   font-weight: 700;
 }
 
+@media (min-width: 480px) {
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+}
+
 @media (min-width: 1440px) {
   .xl\:container {
     width: 100%;
