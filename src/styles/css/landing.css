@@ -3,6 +3,7 @@
 }
 .landing .landing-section .landing-wrapper {
   margin: 0 5%;
+  justify-content: space-evenly;
 }
 .landing .landing-section .landing-wrapper .landing-texts {
   width: 50%;
