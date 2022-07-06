@@ -32,6 +32,11 @@
 .header .header-container .header-wrapper .navigation {
   align-items: center;
 }
+@media (max-width: 320px) {
+  .header .header-container .header-wrapper .navigation {
+    gap: 1rem !important;
+  }
+}
 .header .header-container .header-wrapper .navigation .openMobiMenu {
   display: none;
   width: 25px;

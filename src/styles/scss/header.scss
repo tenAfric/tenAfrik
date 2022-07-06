@@ -27,6 +27,9 @@ $colorLight: #f3f3f3;
             }
             .navigation{
                 align-items: center;
+                @media(max-width: 320px){
+                    gap: 1rem !important;
+                }
                 .openMobiMenu{
                     display: none;
                     width: 25px;
