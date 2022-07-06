@@ -13,7 +13,10 @@
   }
 }
 .header .header-container .header-wrapper .brand-logo {
-  width: 20%;
+  width: 30%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 .header .header-container .header-wrapper .brand-logo .logo {
   width: 100%;
