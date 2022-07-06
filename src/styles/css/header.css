@@ -20,7 +20,7 @@
 }
 @media (max-width: 480px) {
   .header .header-container .header-wrapper .brand-logo {
-    width: 70% !important;
+    width: 100% !important;
   }
 }
 .header .header-container .header-wrapper .brand-logo .logo {
