@@ -14,7 +14,6 @@ const Header = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>holla</title>
         <meta charSet="utf-8" />
         <link rel="canonical" href="http://tenafric.com" />
       </Helmet>
