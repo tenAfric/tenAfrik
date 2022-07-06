@@ -14,8 +14,8 @@ $colorLight: #f3f3f3;
         }
         .header-wrapper{
             .brand-logo{
-                @media(max-screen: 480px) {
-                    width: 50% !important;
+                @media(max-width: 480px) {
+                    width: 70% !important;
                 }
                 width: 40%;
                 height: min-content;

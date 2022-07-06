@@ -18,9 +18,9 @@
   height: -moz-min-content;
   height: min-content;
 }
-@media (max-screen: 480px) {
+@media (max-width: 480px) {
   .header .header-container .header-wrapper .brand-logo {
-    width: 50% !important;
+    width: 70% !important;
   }
 }
 .header .header-container .header-wrapper .brand-logo .logo {
