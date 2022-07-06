@@ -20,7 +20,7 @@
 }
 @media (max-screen: 480px) {
   .header .header-container .header-wrapper .brand-logo {
-    width: 50%;
+    width: 50% !important;
   }
 }
 .header .header-container .header-wrapper .brand-logo .logo {
