@@ -21,8 +21,8 @@ const Header = () => {
         <div className="xl:container mx-auto header-container pt-4">
           <div className="grid grid-cols-2 gap-4 header-wrapper items-center">
             <div className="brand-logo">
-              <h1 className="logo-text font-bold text-4xl">tenAfric</h1>
-              <img src="../assets/images/white-logo.png" alt="" />
+              {/* <h1 className="logo-text font-bold text-4xl">tenAfric</h1> */}
+              <img src="../assets/images/logo-white.png" alt="tenAfric" />
             </div>
             <div className="navigation pt-2 flex gap-6 justify-end">
               <nav className={(mobi)?"menu shwMobiMenu":"menu"}>
