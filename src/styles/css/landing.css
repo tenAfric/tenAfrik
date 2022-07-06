@@ -16,6 +16,12 @@
   font-weight: 400;
   color: #aaaaaa;
 }
+.landing .landing-section .landing-wrapper .landing-texts .lng-cta {
+  background-color: #e6e6e6;
+  color: #010f25;
+  border-radius: 6px;
+  cursor: pointer;
+}
 .landing .landing-section .landing-wrapper .landing-image {
   width: 40%;
   padding-right: 10%;
