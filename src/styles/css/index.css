@@ -640,6 +640,11 @@ video {
   font-size: 1.3rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
