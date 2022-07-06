@@ -10,6 +10,9 @@
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
   font-weight: 700;
 }
+.landing .landing-section .landing-wrapper .landing-texts .landing-txt-paragraph {
+  font-weight: 400;
+}
 .landing .landing-section .landing-wrapper .landing-image {
   width: 50%;
 }
