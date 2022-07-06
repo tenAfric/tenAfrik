@@ -3,10 +3,10 @@
 }
 .landing .landing-section .landing-wrapper {
   margin: 0 5%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .landing .landing-section .landing-wrapper .landing-texts {
-  width: 50%;
+  width: 40%;
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
   font-weight: 700;
@@ -15,7 +15,7 @@
   font-weight: 400;
 }
 .landing .landing-section .landing-wrapper .landing-image {
-  width: 50%;
+  width: 40%;
 }
 .landing .landing-section .landing-wrapper .landing-image .img-landing {
   width: 100%;
