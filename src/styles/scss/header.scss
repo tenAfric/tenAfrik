@@ -14,12 +14,23 @@ $colorLight: #f3f3f3;
         }
         .header-wrapper{
             .brand-logo{
-                .logo-text{
-
+                @media(max-width: 480px) {
+                    width: 100% !important;
+                }
+                width: 40%;
+                height: min-content;
+                .logo{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
                 }
             }
             .navigation{
                 align-items: center;
+                margin-top: -20px;
+                @media(max-width: 320px){
+                    gap: 1rem !important;
+                }
                 .openMobiMenu{
                     display: none;
                     width: 25px;
