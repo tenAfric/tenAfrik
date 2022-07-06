@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import '../styles/css/header.css'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/images/logo-white.png'
 import { ReactComponent as Bars } from '../assets/svg/bars.svg'
 import { ReactComponent as Times } from '../assets/svg/x-mark.svg'
 
@@ -22,7 +23,7 @@ const Header = () => {
           <div className="grid grid-cols-2 gap-4 header-wrapper items-center">
             <div className="brand-logo">
               {/* <h1 className="logo-text font-bold text-4xl">tenAfric</h1> */}
-              <img src="../assets/images/logo-white.png" alt="tenAfric" />
+              <Logo />
             </div>
             <div className="navigation pt-2 flex gap-6 justify-end">
               <nav className={(mobi)?"menu shwMobiMenu":"menu"}>
