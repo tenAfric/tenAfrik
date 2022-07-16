@@ -50,7 +50,6 @@ body::-webkit-scrollbar {
   * {
     -ms-overflow-style: none;
   }
-
   body::-webkit-scrollbar {
     scrollbar-color: transparent transparent;
   }
