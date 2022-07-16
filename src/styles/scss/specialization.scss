@@ -1,0 +1,42 @@
+$bgDarkLight: #011b3f;
+$bgDarkDark: #010f25;
+
+.specialization{
+    height: min-content;
+    padding: 5% 0;
+    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    .specWrapper{
+        margin: 0 5%;
+        .specializationHeader{
+            text-align: center;
+        }
+        .spectxts{
+            font-size: .9rem;
+        }
+        .specCards{
+            margin-top: 5%;
+            .specCrds{
+                height: 200px;
+                width: 300px;
+                background: linear-gradient(45deg, #6E6BFF, #4A48B9);
+                margin: 10px;
+                border-radius: 10px;
+                padding: 10px;
+                position: relative;
+                .crdsTitle{
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    line-height: 1;
+                    letter-spacing: 1.1px;
+                    margin-top: 5px;
+                }
+                .specKnowMore{
+                    font-size: 0.8rem;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                }
+            }
+        }
+    }
+}
