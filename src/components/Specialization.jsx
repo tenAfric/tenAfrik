@@ -7,7 +7,7 @@ const Specialization = () => {
         <Fragment>
             <div className="specialization">
                 <div className="specWrapper">
-                    <h1 className="specializationHeader text-6xl mb-5">we specialize in</h1>
+                    <h1 className="specializationHeader text-6xl mb-5">what we do at tenAfric</h1>
                     <p className="spectxts text-center text-2xl mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, exercitationem? Consequatur, impedit facilis?</p>
                     <div className="specCards flex justify-center items-center">
                         <div className="specCrds">
@@ -22,11 +22,12 @@ const Specialization = () => {
                         </div>
                         <div className="specCrds">
                             <h2 className="crdsTitle">UI/UX design and development</h2>
-                            <p>Hire us a</p>
+                            <p>Hire us and we'll become a dedicated part of your team</p>
                             <Link to="" className="specKnowMore">know more</Link>
                         </div>
                         <div className="specCrds">
-                            <h2 className="crdsTitle">Graphi design and animation</h2>
+                            <h2 className="crdsTitle">Graphic design and animation</h2>
+                            <p>Hire us and we'll become a dedicated part of your team</p>
                             <Link to="" className="specKnowMore">know more</Link>
                         </div>
                     </div>
