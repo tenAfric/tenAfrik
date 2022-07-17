@@ -1,0 +1,41 @@
+.specialization {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 5% 0;
+  background: linear-gradient(145deg, #011b3f, #010f25);
+}
+.specialization .specWrapper {
+  margin: 0 5%;
+}
+.specialization .specWrapper .specializationHeader {
+  text-align: center;
+}
+.specialization .specWrapper .spectxts {
+  font-size: 0.9rem;
+}
+.specialization .specWrapper .specCards {
+  margin-top: 5%;
+}
+.specialization .specWrapper .specCards .specCrds {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(45deg, #6E6BFF, #4A48B9);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+.specialization .specWrapper .specCards .specCrds .crdsTitle {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.1px;
+  margin-top: 5px;
+}
+.specialization .specWrapper .specCards .specCrds .specKnowMore {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}/*# sourceMappingURL=specialization.css.map */

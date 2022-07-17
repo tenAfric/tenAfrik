@@ -1,0 +1,39 @@
+.footer {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.footer .footerWrapper {
+  margin: 5%;
+  flex-wrap: wrap;
+}
+.footer .footerWrapper .fSections {
+  height: 200px;
+  min-width: 200px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  flex: 1;
+  padding: 20px;
+}
+.footer .footerWrapper .fSections h1 {
+  font-weight: 700;
+}
+.footer .footerWrapper .fSections .socialIcons .socLinks {
+  margin: 10px;
+}
+.footer .footerWrapper .fSections .socialIcons .socLinks .facebookLogo {
+  fill: #3935F8;
+  height: 25px;
+}
+.footer .footerWrapper .fSections .socialIcons .socLinks .twitterLogo {
+  fill: #3FBAFF;
+  height: 25px;
+}
+.footer .footerWrapper .fSections .socialIcons .socLinks .linkedInLogo {
+  fill: #2662FD;
+  height: 25px;
+}
+.footer .footerWrapper .fSections .socialIcons .socLinks .instagramLogo {
+  fill: #fd21e3;
+  height: 25px;
+}/*# sourceMappingURL=footer.css.map */

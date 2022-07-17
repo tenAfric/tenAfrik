@@ -4,6 +4,9 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Services from './routes/Services'
 import Contact from './routes/Contact'
+import Cookies from './routes/cookies'
+import Privacy from './routes/privacy'
+import Tos from './routes/tos'
 import NotFound from './routes/NotFound'
 
 const App =() => {
@@ -15,6 +18,9 @@ const App =() => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cookies" element={<Cookies />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/tos" element={<Tos />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
