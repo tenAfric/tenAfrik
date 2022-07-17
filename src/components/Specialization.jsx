@@ -25,7 +25,7 @@ const Specialization = () => {
                             <p className="mb-2 mt-2">Hire us and we'll become a dedicated part of your team</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
-                        <div className="specCrds">
+                        <div className="specCrds flex flex-col">
                             <h2 className="crdsTitle mt-4">Graphic design and animation</h2>
                             <p className="mb-2 mt-2">Hire us and we'll become a dedicated part of your team</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
