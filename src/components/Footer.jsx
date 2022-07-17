@@ -33,21 +33,53 @@ const Footer = () => {
             </div>
           </div>
           <div className="fSections">
-            <h2 className="fResources">Resources</h2>
+            <h2 className="fResources text-2xl mb-2">Resources</h2>
             <ul>
-              <li>
+              <li className="mb-2">
                 <Link to="/privacy" className="resLinks">Privacy</Link>
               </li>
-              <li>
+              <li className="mb-2">
                 <Link to="/tos" className="resLinks">Terms of Services</Link>
               </li>
-              <li>
+              <li className="mb-2">
                 <Link to="/cookies" className="resLinks">Cookies</Link>
               </li>
             </ul>
           </div>
-          <div className="fSections"></div>
-          <div className="fSections"></div>
+          <div className="fSections">
+            <h2 className="fResources text-2xl mb-2">Our Services</h2>
+            <ul>
+              <li className="mb-2">
+                <Link to="/privacy" className="resLinks">Graphic Design</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/tos" className="resLinks">Database design</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/cookies" className="resLinks">Software development</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/cookies" className="resLinks">Artificial Intelligence</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="fSections">
+            <h2 className="fResources text-2xl mb-2">Useful Links</h2>
+            <ul>
+              <li className="mb-2">
+                <Link to="/" className="resLinks">Home</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/about" className="resLinks">About us</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/services" className="resLinks">Services</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="/contact" className="resLinks">Contact Us</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </Fragment>
