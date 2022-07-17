@@ -13,22 +13,22 @@ const Specialization = () => {
                         <div className="specCrds">
                             <h2 className="crdsTitle">Custom software development</h2>
                             <p>Hire us and we'll become a dedicated part of your team</p>
-                            <Link to="" className="specKnowMore">know more</Link>
+                            <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
                             <h2 className="crdsTitle">Full-Project design and development</h2>
                             <p>Hire a team of proffesionals to design and develop and launch your project</p>
-                            <Link to="" className="specKnowMore">know more</Link>
+                            <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
                             <h2 className="crdsTitle">UI/UX design and development</h2>
                             <p>Hire us and we'll become a dedicated part of your team</p>
-                            <Link to="" className="specKnowMore">know more</Link>
+                            <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
                             <h2 className="crdsTitle">Graphic design and animation</h2>
                             <p>Hire us and we'll become a dedicated part of your team</p>
-                            <Link to="" className="specKnowMore">know more</Link>
+                            <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                     </div>
                 </div>
