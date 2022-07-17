@@ -1,0 +1,39 @@
+.footer{
+    height: min-content;
+    .footerWrapper{
+        margin: 5%;
+        flex-wrap: wrap;
+        .fSections{
+            height: 200px;
+            min-width: 200px;
+            margin: 10px;
+            background-color: #ffffff00;
+            flex: 1;
+            padding: 20px;
+            h1{
+                font-weight: 700;
+            }
+            .socialIcons{
+                .socLinks{
+                    margin: 10px;
+                    .facebookLogo{
+                        fill: #3935F8;
+                        height: 25px;
+                    }
+                    .twitterLogo{
+                        fill: #3FBAFF;
+                        height: 25px;
+                    }
+                    .linkedInLogo{
+                        fill: #2662FD;
+                        height: 25px;
+                    }
+                    .instagramLogo{
+                        fill: #fd21e3;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
