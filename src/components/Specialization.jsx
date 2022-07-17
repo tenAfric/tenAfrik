@@ -8,7 +8,7 @@ const Specialization = () => {
             <div className="specialization">
                 <div className="specWrapper">
                     <h1 className="specializationHeader text-6xl mb-5">what we do at tenAfric</h1>
-                    <p className="spectxts text-center text-2xl mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, exercitationem? Consequatur, impedit facilis?</p>
+                    <p className="spectxts text-center text-2xl mb-4">transforming your dreams into reality</p>
                     <div className="specCards flex justify-center items-center">
                         <div className="specCrds">
                             <h2 className="crdsTitle">Custom software development</h2>
