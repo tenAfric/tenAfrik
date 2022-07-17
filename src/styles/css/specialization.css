@@ -18,7 +18,7 @@
   margin-top: 5%;
 }
 .specialization .specWrapper .specCards .specCrds {
-  height: 200px;
+  height: auto;
   width: 50%;
   background: linear-gradient(45deg, #6E6BFF, #4A48B9);
   margin: 10px;
