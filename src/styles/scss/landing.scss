@@ -19,6 +19,9 @@ $bgDarkDark: #010f25;
                 position: absolute;
                 top: 10%;
                 left: 5%;
+                @media(min-width: 1440px){
+                    top: 15%;
+                }
                 @media(max-width: 480px){
                     width: 100%;
                     margin-top: 20px;
