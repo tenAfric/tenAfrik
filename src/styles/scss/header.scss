@@ -15,10 +15,14 @@ $colorLight: #f3f3f3;
         .header-wrapper{
             .brand-logo{
                 width: 40%;
+                position: relative;
                 @media(max-width: 480px) {
                     width: 100% !important;
                 }
                 .logoWrapper{
+                    position: relative;
+                    top: 0;
+                    left: 0;
                     height: 60px;
                     width: min-content;
                     .logo{

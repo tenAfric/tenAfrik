@@ -14,6 +14,7 @@
 }
 .header .header-container .header-wrapper .brand-logo {
   width: 40%;
+  position: relative;
 }
 @media (max-width: 480px) {
   .header .header-container .header-wrapper .brand-logo {
@@ -21,6 +22,9 @@
   }
 }
 .header .header-container .header-wrapper .brand-logo .logoWrapper {
+  position: relative;
+  top: 0;
+  left: 0;
   height: 60px;
   width: -webkit-min-content;
   width: -moz-min-content;
