@@ -110,7 +110,7 @@ input[type=number] {
 
 body::-webkit-scrollbar {
   width: 5px;
-  background-color: rgba(47, 50, 57, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 @media (max-width: 600px) {
