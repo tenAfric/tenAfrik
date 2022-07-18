@@ -71,7 +71,7 @@
 }
 .header .header-container .header-wrapper .navigation .header-cta .header-cta-btn {
   background-color: #4f60ff;
-  border-radius: 6px;
+  border-radius: 23px;
   padding: 8px 25px;
 }
 @media (max-width: 500px) {

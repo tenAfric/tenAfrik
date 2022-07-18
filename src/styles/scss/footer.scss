@@ -6,14 +6,19 @@ $bgDarkDark: #010f25;
     background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
     .footerWrapper{
         margin: 5%;
+        margin-top: 0;
+        padding-top: 20px;
         flex-wrap: wrap;
         .fSections{
-            height: 200px;
             min-width: 200px;
             margin: 10px;
             background-color: #ffffff00;
             flex: 1;
             padding: 20px;
+            @media(max-width: 480px){
+                padding: 0 10px;
+                margin: 5px 10px;
+            }
             h1{
                 font-weight: 700;
             }
@@ -21,15 +26,15 @@ $bgDarkDark: #010f25;
                 .socLinks{
                     margin: 10px;
                     .facebookLogo{
-                        fill: #3935F8;
+                        fill: #4267B2;
                         height: 25px;
                     }
                     .twitterLogo{
-                        fill: #3FBAFF;
+                        fill: #1DA1F2;
                         height: 25px;
                     }
                     .linkedInLogo{
-                        fill: #2662FD;
+                        fill: #0077B5;
                         height: 25px;
                     }
                     .instagramLogo{
@@ -37,9 +42,45 @@ $bgDarkDark: #010f25;
                         height: 25px;
                     }
                 }
+            }
+            .fDrop{
+                display: flex;
+                align-items: center;
                 .fResources{
-                    
+                    font-weight: 900;
                 }
+                .angleDown{
+                    fill: #fff;
+                    height: 20px;
+                    margin-left: 20px;
+                    margin-top: -10px;
+                    @media(min-width: 480px){
+                        display: none !important;
+                    }
+                }
+                .angleRight{
+                    transform: rotate(-90deg);
+                    transition-property: all;
+                    transition-timing-function: cubic-bezier(.4,0,.2,1);
+                    transition-duration: .15s;
+                }
+            }
+            ul{
+                @media(max-width: 480px){
+                    display: none;
+                }
+                li{
+                    margin-bottom: 1rem;
+                }
+            }
+            .showFLinks{
+                display: unset !important;
+            }
+            .faqShow{
+                display: flex;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(.4,0,.2,1);
+                transition-duration: .15s;
             }
         }
     }
