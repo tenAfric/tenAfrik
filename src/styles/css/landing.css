@@ -19,7 +19,8 @@
   width: 50%;
   margin: 0 !important;
   position: absolute;
-  top: 50%;
+  top: 10%;
+  left: 5%;
 }
 @media (max-width: 480px) {
   .landing .landing-section .landing-wrapper .landing-texts {
