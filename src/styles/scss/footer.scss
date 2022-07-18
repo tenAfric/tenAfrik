@@ -41,11 +41,12 @@
     }
     .footerCopyright{
         width: 100%;
+        text-align: center;
         p{
             span{
                 a{
                     .githubIcon{
-                        height: 25px;
+                        height: 15px;
                         fill: #fff;
                     }
                 }
