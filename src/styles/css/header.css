@@ -55,6 +55,7 @@
 .header .header-container .header-wrapper .navigation .menu ul li .nav-links {
   letter-spacing: 1.5px;
   cursor: pointer;
+  margin: 0 20px;
 }
 .header .header-container .header-wrapper .navigation .header-cta .header-cta-btn {
   background-color: #4f60ff;
