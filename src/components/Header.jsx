@@ -36,7 +36,7 @@ const Header = () => {
                 </ul>
               </nav>
               <div className="header-cta">
-                <Link to="/contact" className="header-cta-btn px-4 py-2">Try Free</Link>
+                <Link to="/contact" className="header-cta-btn px-4 py-2">Get a Quote</Link>
               </div>
               <Bars className="openMobiMenu" onClick={()=>handleMobiMenu('open')}/>
             </div>
