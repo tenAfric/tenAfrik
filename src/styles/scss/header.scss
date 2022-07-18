@@ -28,6 +28,7 @@ $colorLight: #f3f3f3;
             .navigation{
                 align-items: center;
                 margin-top: -20px;
+                width: 40%;
                 @media(max-width: 320px){
                     gap: 1rem !important;
                 }
