@@ -84,8 +84,7 @@ const Footer = () => {
         </div>
         <div className="footerCopyright">
           <p>
-            copyright &copy; {(new Date().getFullYear())} | tenAfric
-            <span><a href="https://github.com/tenAfric/"><FiGithub title="Github"/></a></span>
+            copyright &copy; {(new Date().getFullYear())} | tenAfric <span><a href="https://github.com/tenAfric/"><FiGithub className="githubIcon" title="Github"/></a></span>
           </p>
         </div>
       </div>

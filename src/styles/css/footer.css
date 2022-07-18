@@ -39,4 +39,8 @@
 }
 .footer .footerCopyright {
   width: 100%;
+}
+.footer .footerCopyright p span a .githubIcon {
+  height: 25px;
+  fill: #fff;
 }/*# sourceMappingURL=footer.css.map */
