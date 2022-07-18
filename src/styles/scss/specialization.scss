@@ -20,6 +20,9 @@ $bgLightTheme: #dbe0ff;
             color: #ffffff !important;
             font: 900 8vmin/3rem cookie, cursive;
             mix-blend-mode: difference;
+            @media(max-width: 480px){
+                font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif !important;
+            }
         }
         .spectxts{
             font-size: .9rem;
@@ -70,6 +73,9 @@ $bgLightTheme: #dbe0ff;
                     color: transparent;
                     font: 900 5vmin/3rem cookie, cursive;
                     filter: invert(1) grayscale(1) contrast(9);
+                    @media(max-width: 480px){
+                        font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif !important;
+                    }
                 }
                 p{
                     font-size: 1rem;
