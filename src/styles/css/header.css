@@ -18,7 +18,7 @@
 }
 @media (max-width: 480px) {
   .header .header-container .header-wrapper .brand-logo {
-    width: 100% !important;
+    width: 50% !important;
   }
 }
 .header .header-container .header-wrapper .brand-logo .logoWrapper {
@@ -27,6 +27,12 @@
   left: 10%;
   width: 150px;
   height: auto;
+}
+@media (max-width: 480px) {
+  .header .header-container .header-wrapper .brand-logo .logoWrapper {
+    left: 0;
+    width: 100px;
+  }
 }
 .header .header-container .header-wrapper .brand-logo .logoWrapper .logo {
   width: 100%;
@@ -67,6 +73,11 @@
   background-color: #4f60ff;
   border-radius: 6px;
   padding: 8px 25px;
+}
+@media (max-width: 500px) {
+  .header .header-container .header-wrapper .navigation .header-cta .header-cta-btn {
+    padding: 5px 10px !important;
+  }
 }
 
 @media (max-width: 1050px) {

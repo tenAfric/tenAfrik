@@ -80,7 +80,7 @@ html, body {
   border-style: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #010f25;
+  background: linear-gradient(145deg, #01122a, #040d1b);
   background-repeat: no-repeat;
   background-position: 50% 0;
   width: 100%;
