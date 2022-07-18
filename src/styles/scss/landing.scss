@@ -26,6 +26,9 @@ $bgDarkDark: #010f25;
                 .landing-txt-header{
                     font-weight: 600;
                     line-height: 1.2;
+                    position: absolute;
+                    top: 50%;
+                    //transform: translateY(-50%);
                 }
                 .landing-txt-paragraph{
                     font-weight: 400;
