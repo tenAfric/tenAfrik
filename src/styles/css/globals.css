@@ -106,18 +106,4 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
-}
-
-body::-webkit-scrollbar {
-  width: 5px;
-  background-color: rgba(47, 50, 57, 0);
-}
-
-@media (max-width: 600px) {
-  * {
-    -ms-overflow-style: none;
-  }
-  body::-webkit-scrollbar {
-    scrollbar-color: transparent transparent;
-  }
 }/*# sourceMappingURL=globals.css.map */

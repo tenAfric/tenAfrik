@@ -41,16 +41,16 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-//vertical scrollbar
-body::-webkit-scrollbar {
-    width: 5px;
-    background-color: #2f323900;
-}
-@media(max-width: 600px){
-    *{
-        -ms-overflow-style: none;
-    }
-    body::-webkit-scrollbar {
-        scrollbar-color: transparent transparent;
-    }
-}
+// //vertical scrollbar
+// body::-webkit-scrollbar {
+//     width: 5px;
+//     background-color: #2f323900;
+// }
+// @media(max-width: 600px){
+//     *{
+//         -ms-overflow-style: none;
+//     }
+//     body::-webkit-scrollbar {
+//         scrollbar-color: transparent transparent;
+//     }
+// }
