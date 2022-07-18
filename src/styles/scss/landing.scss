@@ -3,7 +3,10 @@ $bgDarkDark: #010f25;
 
 .landing{
     //background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
-    background: url('../../assets/images/girl_coder.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../assets/images/beautiful_girl_coding.jpg');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
     .landing-section{
         height: 100vh;
         @media(max-width: 480px){
