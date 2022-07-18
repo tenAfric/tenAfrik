@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Header from './Header'
 import '../styles/css/landing.css'
 import Helmet from 'react-helmet'
-import { ReactComponent as LandingImg } from '../assets/svg/landing.svg'
+// import { ReactComponent as LandingImg } from '../assets/svg/landing.svg'
 import { Link } from 'react-router-dom'
 
 const Landing = () => {
@@ -21,7 +21,7 @@ const Landing = () => {
               <Link to="/contact" className="lng-cta p-3">Contact Us</Link>
             </div>
             <div className="landing-image mt-8">
-              <LandingImg className="img-landing"/>
+              {/* <LandingImg className="img-landing"/> */}
             </div>
           </div>
         </div>
