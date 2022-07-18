@@ -27,12 +27,15 @@ $bgDarkDark: #010f25;
                     font-weight: 600;
                     line-height: 1.2;
                     position: absolute;
-                    top: 50%;
-                    //transform: translateY(-50%);
+                    top: 25%;
+                    transform: translateY(-25%);
                 }
                 .landing-txt-paragraph{
                     font-weight: 400;
                     color: #aaaaaa;
+                    position: absolute;
+                    top: 40%;
+                    transform: translateY(-40%);
                 }
                 .lng-cta{
                     background-color: #e6e6e6;

@@ -32,11 +32,15 @@
   font-weight: 600;
   line-height: 1.2;
   position: absolute;
-  top: 50%;
+  top: 25%;
+  transform: translateY(-25%);
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-paragraph {
   font-weight: 400;
   color: #aaaaaa;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
   background-color: #e6e6e6;
