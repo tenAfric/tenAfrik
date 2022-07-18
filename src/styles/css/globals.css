@@ -109,8 +109,8 @@ input[type=number] {
 }
 
 body::-webkit-scrollbar {
-  width: 0px;
-  background-color: #ffffff;
+  width: 5px;
+  background-color: rgba(47, 50, 57, 0);
 }
 
 @media (max-width: 600px) {

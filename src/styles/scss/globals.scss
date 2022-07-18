@@ -43,8 +43,8 @@ input[type=number] {
 
 //vertical scrollbar
 body::-webkit-scrollbar {
-    width: 0px;
-    background-color: #ffffff;
+    width: 5px;
+    background-color: #2f323900;
 }
 @media(max-width: 600px){
     *{
