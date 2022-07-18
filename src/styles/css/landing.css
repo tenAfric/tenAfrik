@@ -19,6 +19,8 @@
 .landing .landing-section .landing-wrapper .landing-texts {
   width: 50%;
   background-color: rgb(237, 120, 255);
+  margin: 0 !important;
+  position: relative;
 }
 @media (max-width: 480px) {
   .landing .landing-section .landing-wrapper .landing-texts {
