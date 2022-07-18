@@ -39,4 +39,25 @@
             }
         }
     }
+    .footerCopyright{
+        width: 100%;
+        text-align: center;
+        p{
+            text-align: center;
+            padding-bottom: 20px;
+            span{
+                span{
+                    a{
+                        .githubIcon{
+                            height: 15px;
+                            fill: #fff;
+                            display: unset !important;
+                            margin-bottom: 3px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

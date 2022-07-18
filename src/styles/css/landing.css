@@ -1,5 +1,11 @@
 .landing {
-  background: linear-gradient(145deg, #011b3f, #010f25);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/beautiful_girl_coding.jpg");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing .landing-section {
+  height: 100vh;
 }
 @media (max-width: 480px) {
   .landing .landing-section {
@@ -7,11 +13,22 @@
   }
 }
 .landing .landing-section .landing-wrapper {
+  height: 100%;
   margin: 0 5%;
   justify-content: space-between;
+  position: relative;
 }
 .landing .landing-section .landing-wrapper .landing-texts {
-  width: 40%;
+  width: 50%;
+  margin: 0 !important;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+@media (min-width: 1440px) {
+  .landing .landing-section .landing-wrapper .landing-texts {
+    top: 20%;
+  }
 }
 @media (max-width: 480px) {
   .landing .landing-section .landing-wrapper .landing-texts {
@@ -22,18 +39,25 @@
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 30px;
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-paragraph {
   font-weight: 400;
   color: #aaaaaa;
+  margin-bottom: 50px;
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
-  background-color: #e6e6e6;
-  color: #010f25;
-  border-radius: 6px;
+  background-color: #4f60ff;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 23px;
   cursor: pointer;
 }
 .landing .landing-section .landing-wrapper .landing-image {
+  margin: 0 !important;
+  position: absolute;
+  top: 10%;
+  right: 0%;
   width: 40%;
   padding-right: 10%;
 }

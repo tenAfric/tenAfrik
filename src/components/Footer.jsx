@@ -5,6 +5,7 @@ import { ReactComponent as Facebook } from '../assets/svg/facebook.svg'
 import { ReactComponent as Twitter } from '../assets/svg/twitter.svg'
 import { ReactComponent as LinkedIn } from '../assets/svg/linkedin.svg'
 import { ReactComponent as Instagram } from '../assets/svg/instagram.svg'
+import { ReactComponent as FiGithub } from '../assets/svg/github.svg'
 
 const Footer = () => {
   return (
@@ -80,6 +81,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="footerCopyright">
+          <p>
+            <span>
+              copyright &copy; {(new Date().getFullYear())} | tenAfric <span><a href="https://github.com/tenAfric/"><FiGithub className="githubIcon" title="Github"/></a></span>
+            </span>
+          </p>
         </div>
       </div>
     </Fragment>

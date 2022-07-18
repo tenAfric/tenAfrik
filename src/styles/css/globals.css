@@ -1,4 +1,72 @@
-@import url("../poppins.css");
+html, body {
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font-family: Apercu, source sans pro, system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Apercu font */
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-Light.eot);
+  src: url(../../assets/fonts/apercu/Apercu-Light.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-Light.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-Light.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-Light.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-Light.svg#Apercu-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-LightItalic.eot);
+  src: url(../../assets/fonts/apercu/Apercu-LightItalic.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-LightItalic.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-LightItalic.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-LightItalic.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-LightItalic.svg#Apercu-LightItalic) format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-Regular.eot);
+  src: url(../../assets/fonts/apercu/Apercu-Regular.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-Regular.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-Regular.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-Regular.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-Regular.svg#Apercu-Regular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-Italic.eot);
+  src: url(../../assets/fonts/apercu/Apercu-Italic.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-Italic.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-Italic.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-Italic.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-Italic.svg#Apercu-Italic) format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-Medium.eot);
+  src: url(../../assets/fonts/apercu/Apercu-Medium.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-Medium.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-Medium.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-Medium.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-Medium.svg#Apercu-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-MediumItalic.eot);
+  src: url(../../assets/fonts/apercu/Apercu-MediumItalic.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-MediumItalic.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-MediumItalic.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-MediumItalic.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-MediumItalic.svg#Apercu-MediumItalic) format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-Bold.eot);
+  src: url(../../assets/fonts/apercu/Apercu-Bold.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-Bold.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-Bold.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-Bold.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Apercu;
+  src: url(../../assets/fonts/apercu/Apercu-BoldItalic.eot);
+  src: url(../../assets/fonts/apercu/Apercu-BoldItalic.eot?#iefix) format("embedded-opentype"), url(../../assets/fonts/apercu/Apercu-BoldItalic.woff2) format("woff2"), url(../../assets/fonts/apercu/Apercu-BoldItalic.woff) format("woff"), url(../../assets/fonts/apercu/Apercu-BoldItalic.ttf) format("truetype"), url(../../assets/fonts/apercu/Apercu-BoldItalic.svg#Apercu-BoldItalic) format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +78,6 @@ li {
 
 html, body {
   border-style: border-box;
-  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #010f25;
@@ -39,18 +106,4 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
-}
-
-body::-webkit-scrollbar {
-  width: 5px;
-  background-color: rgba(47, 50, 57, 0);
-}
-
-@media (max-width: 600px) {
-  * {
-    -ms-overflow-style: none;
-  }
-  body::-webkit-scrollbar {
-    scrollbar-color: transparent transparent;
-  }
 }/*# sourceMappingURL=globals.css.map */

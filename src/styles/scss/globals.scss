@@ -1,5 +1,5 @@
-//font
-@import url('../poppins.css');
+@forward 'globals/index';
+
 $bgDarkLight: #011b3f;
 $bgDarkDark: #010f25;
 $colorLight: #f3f3f3;
@@ -13,7 +13,6 @@ li{
 }
 html,body{
     border-style: border-box;
-    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: $bgDarkDark;
@@ -42,16 +41,16 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-//vertical scrollbar
-body::-webkit-scrollbar {
-    width: 5px;
-    background-color: #2f323900;
-}
-@media(max-width: 600px){
-    *{
-        -ms-overflow-style: none;
-    }
-    body::-webkit-scrollbar {
-        scrollbar-color: transparent transparent;
-    }
-}
+// //vertical scrollbar
+// body::-webkit-scrollbar {
+//     width: 5px;
+//     background-color: #2f323900;
+// }
+// @media(max-width: 600px){
+//     *{
+//         -ms-overflow-style: none;
+//     }
+//     body::-webkit-scrollbar {
+//         scrollbar-color: transparent transparent;
+//     }
+// }
