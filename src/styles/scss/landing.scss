@@ -18,7 +18,7 @@ $bgDarkDark: #010f25;
                 margin: 0 !important;
                 position: absolute;
                 top: 10%;
-                left: 0%;
+                left: 5%;
                 @media(min-width: 1440px){
                     top: 20%;
                 }
@@ -33,6 +33,7 @@ $bgDarkDark: #010f25;
                 .landing-txt-paragraph{
                     font-weight: 400;
                     color: #aaaaaa;
+                    margin-bottom: 50px;
                 }
                 .lng-cta{
                     background-color: #e6e6e6;
@@ -45,7 +46,7 @@ $bgDarkDark: #010f25;
                 margin: 0 !important;
                 position: absolute;
                 top: 10%;
-                right: 5%;
+                right: 0%;
                 @media(max-width: 480px){
                     display: none !important;
                 }
