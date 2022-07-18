@@ -18,7 +18,7 @@ const Header = () => {
         <link rel="canonical" href="http://tenafric.com" />
       </Helmet>
       <header className="header h-16">
-        <div className="xl:container mx-auto header-container pt-4">
+        <div className="xl:container mx-auto header-container pt-8">
           <div className="flex header-wrapper items-center">
             <div className="brand-logo">
               <div className="logoWrapper">
