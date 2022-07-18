@@ -39,6 +39,10 @@ $bgDarkDark: #010f25;
                 }
             }
             .landing-image{
+                margin: 0 !important;
+                position: absolute;
+                top: 10%;
+                right: 5%;
                 @media(max-width: 480px){
                     display: none !important;
                 }

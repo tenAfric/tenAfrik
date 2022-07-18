@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 .landing .landing-section .landing-wrapper .landing-image {
+  margin: 0 !important;
+  position: absolute;
+  top: 10%;
+  right: 5%;
   width: 40%;
   padding-right: 10%;
 }
