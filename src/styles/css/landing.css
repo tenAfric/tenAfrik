@@ -41,6 +41,11 @@
   line-height: 1.2;
   margin-bottom: 30px;
 }
+@media (max-width: 480px) {
+  .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
+    font-size: 2.7rem;
+  }
+}
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-paragraph {
   font-weight: 400;
   color: #aaaaaa;

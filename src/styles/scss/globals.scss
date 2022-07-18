@@ -1,7 +1,7 @@
 @forward 'globals/index';
 
-$bgDarkLight: #011b3f;
-$bgDarkDark: #010f25;
+$bgDarkLight: #01122a;
+$bgDarkDark: #040d1b;
 $colorLight: #f3f3f3;
 
 *{
@@ -15,7 +15,7 @@ html,body{
     border-style: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: $bgDarkDark;
+    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 100%;

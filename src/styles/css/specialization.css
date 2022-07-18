@@ -3,10 +3,15 @@
   height: -moz-min-content;
   height: min-content;
   padding: 5% 0;
-  background: linear-gradient(145deg, #011b3f, #010f25);
+  background: #dbe0ff;
 }
 .specialization .specWrapper {
   margin: 0 5%;
+}
+@media (max-width: 480px) {
+  .specialization .specWrapper {
+    margin: 0 3%;
+  }
 }
 .specialization .specWrapper .specializationHeader {
   text-align: center;
@@ -20,6 +25,7 @@
 }
 .specialization .specWrapper .spectxts {
   font-size: 0.9rem;
+  mix-blend-mode: difference;
 }
 .specialization .specWrapper .specCards {
   margin-top: 5%;
@@ -29,6 +35,12 @@
   gap: 1.5rem;
   justify-content: center;
   justify-items: center;
+}
+@media (max-width: 480px) {
+  .specialization .specWrapper .specCards {
+    width: 100%;
+    margin-left: 0 !important;
+  }
 }
 .specialization .specWrapper .specCards .specCrds {
   grid-column: span 1;
@@ -42,6 +54,11 @@
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (max-width: 1000px) {
+  .specialization .specWrapper .specCards .specCrds {
+    grid-column: span 2;
+  }
 }
 .specialization .specWrapper .specCards .specCrds .crdsTitle {
   font-size: 1.7rem;
