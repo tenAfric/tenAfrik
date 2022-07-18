@@ -47,4 +47,5 @@
 .footer .footerCopyright p span span a .githubIcon {
   height: 15px;
   fill: #fff;
+  display: unset !important;
 }/*# sourceMappingURL=footer.css.map */
