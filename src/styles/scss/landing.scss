@@ -4,6 +4,8 @@ $bgDarkDark: #010f25;
 .landing{
     background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
     .landing-section{
+        background-color: rgb(255, 117, 117);
+        height: 100vh;
         @media(max-width: 480px){
             margin-top: 0 !important;
         }

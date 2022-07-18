@@ -1,6 +1,10 @@
 .landing {
   background: linear-gradient(145deg, #011b3f, #010f25);
 }
+.landing .landing-section {
+  background-color: rgb(255, 117, 117);
+  height: 100vh;
+}
 @media (max-width: 480px) {
   .landing .landing-section {
     margin-top: 0 !important;
