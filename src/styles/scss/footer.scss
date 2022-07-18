@@ -41,5 +41,14 @@
     }
     .footerCopyright{
         width: 100%;
+        p{
+            span{
+                a{
+                    .githubIcon{
+                        height: 25px;
+                    }
+                }
+            }
+        }
     }
 }
