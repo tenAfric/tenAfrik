@@ -36,4 +36,7 @@
 .footer .footerWrapper .fSections .socialIcons .socLinks .instagramLogo {
   fill: #fd21e3;
   height: 25px;
+}
+.footer .footerCopyright {
+  width: 100%;
 }/*# sourceMappingURL=footer.css.map */

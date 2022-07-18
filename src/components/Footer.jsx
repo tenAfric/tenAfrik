@@ -81,6 +81,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <div className="footerCopyright">
+          
+        </div>
       </div>
     </Fragment>
   )
