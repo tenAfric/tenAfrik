@@ -34,14 +34,17 @@ $bgDarkDark: #010f25;
                     font-weight: 400;
                     color: #aaaaaa;
                     position: absolute;
-                    top: 40%;
-                    transform: translateY(-40%);
+                    top: 45%;
+                    transform: translateY(-45%);
                 }
                 .lng-cta{
                     background-color: #e6e6e6;
                     color: #010f25;
                     border-radius: 6px;
                     cursor: pointer;
+                    position: absolute;
+                    top: 65%;
+                    transform: translateY(-65%);
                 }
             }
             .landing-image{

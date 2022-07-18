@@ -39,14 +39,17 @@
   font-weight: 400;
   color: #aaaaaa;
   position: absolute;
-  top: 40%;
-  transform: translateY(-40%);
+  top: 45%;
+  transform: translateY(-45%);
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
   background-color: #e6e6e6;
   color: #010f25;
   border-radius: 6px;
   cursor: pointer;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-65%);
 }
 .landing .landing-section .landing-wrapper .landing-image {
   width: 40%;
