@@ -3,6 +3,7 @@
 }
 .landing .landing-section {
   height: 100vh;
+  background: linear-gradient(), url("../../assets/images/girl_coder.jpg");
 }
 @media (max-width: 480px) {
   .landing .landing-section {
