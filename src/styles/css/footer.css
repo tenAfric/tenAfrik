@@ -44,7 +44,7 @@
 .footer .footerCopyright p {
   text-align: center;
 }
-.footer .footerCopyright p span a .githubIcon {
+.footer .footerCopyright p span span a .githubIcon {
   height: 15px;
   fill: #fff;
 }/*# sourceMappingURL=footer.css.map */
