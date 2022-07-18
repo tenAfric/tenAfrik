@@ -21,8 +21,10 @@ const Header = () => {
         <div className="xl:container mx-auto header-container pt-4">
           <div className="flex header-wrapper items-center">
             <div className="brand-logo">
-              {/* <h1 className="logo-text font-bold text-4xl">tenAfric</h1> */}
-              <img className="logo" src={Logo} alt="tenAfric" />
+              <div className="logoWrapper">
+                {/* <h1 className="logo-text font-bold text-4xl">tenAfric</h1> */}
+                <img className="logo" src={Logo} alt="tenAfric" />
+              </div>
             </div>
             <div className="navigation pt-2 flex gap-6 justify-end">
               <nav className={(mobi)?"menu shwMobiMenu":"menu"}>
