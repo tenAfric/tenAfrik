@@ -45,8 +45,9 @@
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
   background-color: #4f60ff;
-  color: #010f25;
-  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 23px;
   cursor: pointer;
 }
 .landing .landing-section .landing-wrapper .landing-image {
