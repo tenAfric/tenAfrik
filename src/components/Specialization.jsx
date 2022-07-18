@@ -11,23 +11,23 @@ const Specialization = () => {
                     <p className="spectxts text-center text-2xl mb-4">transforming your dreams into reality</p>
                     <div className="specCards grid">
                         <div className="specCrds">
-                            <h2 className="crdsTitle mt-4">Custom software development</h2>
-                            <p className="mb-2 mt-2">Hire us and we'll become a dedicated part of your team</p>
+                            <h2 className="crdsTitle mt-4">Custom software <br/>development</h2>
+                            <p className="mb-2 mt-2">Hire an individual or a custom group of professionals <br/>that will be formed by us and will become a dedicated <br/>part of your team.</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
-                            <h2 className="crdsTitle mt-4">Full-Project design and development</h2>
-                            <p className="mb-2 mt-2">Hire a team of proffesionals to design and develop and launch your project</p>
+                            <h2 className="crdsTitle mt-4">Full-Project design <br/>& development</h2>
+                            <p className="mb-2 mt-2">Hire a team of dedicated professionals necessary to <br/>design, develop and launch your project.</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
-                            <h2 className="crdsTitle mt-4">UI/UX design and development</h2>
-                            <p className="mb-2 mt-2">Hire us and we'll become a dedicated part of your team</p>
+                            <h2 className="crdsTitle mt-4">UI/UX design <br/>& development</h2>
+                            <p className="mb-2 mt-2">Hire us and we'll become a dedicated part <br/>of your team</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                         <div className="specCrds">
-                            <h2 className="crdsTitle mt-4">Graphic design and animation</h2>
-                            <p className="mb-2 mt-2">Hire us and we'll become a dedicated part of your team</p>
+                            <h2 className="crdsTitle mt-4">Graphic design <br/>& animation</h2>
+                            <p className="mb-2 mt-2">Hire us and we'll become a dedicated part <br/>of your team</p>
                             <Link to="" className="specKnowMore mb-2 mt-2">know more</Link>
                         </div>
                     </div>

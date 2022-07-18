@@ -10,34 +10,67 @@
 }
 .specialization .specWrapper .specializationHeader {
   text-align: center;
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #ffffff !important;
+  font: 900 8vmin/3rem cookie, cursive;
+  mix-blend-mode: difference;
 }
 .specialization .specWrapper .spectxts {
   font-size: 0.9rem;
 }
 .specialization .specWrapper .specCards {
   margin-top: 5%;
+  width: 85%;
+  margin-left: 10%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  justify-items: center;
 }
 .specialization .specWrapper .specCards .specCrds {
+  grid-column: span 1;
   height: auto;
-  width: 50%;
+  width: 100%;
   background: linear-gradient(45deg, #6E6BFF, #4A48B9);
-  margin: 10px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/guy_coding.jpg");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .specialization .specWrapper .specCards .specCrds .crdsTitle {
   font-size: 1.7rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2 !important;
   letter-spacing: 1.1px;
   margin-top: 5px;
+  margin-bottom: 10px;
+  mix-blend-mode: difference;
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font: 900 5vmin/3rem cookie, cursive;
+  filter: invert(1) grayscale(1) contrast(9);
 }
 .specialization .specWrapper .specCards .specCrds p {
   font-size: 1rem;
+  margin-bottom: 50px;
+  mix-blend-mode: difference;
 }
 .specialization .specWrapper .specCards .specCrds .specKnowMore {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
   font-size: 0.8rem;
+  letter-spacing: 1.2;
   padding: 10px 20px;
-  background-color: #ffc005;
+  background-color: rgba(255, 168, 5, 0.8392156863);
+  border-radius: 6px;
 }/*# sourceMappingURL=specialization.css.map */
