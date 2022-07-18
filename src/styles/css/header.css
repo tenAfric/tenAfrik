@@ -15,13 +15,16 @@
 .header .header-container .header-wrapper .brand-logo {
   width: 40%;
 }
-.header .header-container .header-wrapper .brand-logo .logoWrapper {
-  height: 60px;
-}
 @media (max-width: 480px) {
-  .header .header-container .header-wrapper .brand-logo .logoWrapper {
+  .header .header-container .header-wrapper .brand-logo {
     width: 100% !important;
   }
+}
+.header .header-container .header-wrapper .brand-logo .logoWrapper {
+  height: 60px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 .header .header-container .header-wrapper .brand-logo .logoWrapper .logo {
   width: 100%;

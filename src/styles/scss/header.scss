@@ -15,11 +15,12 @@ $colorLight: #f3f3f3;
         .header-wrapper{
             .brand-logo{
                 width: 40%;
+                @media(max-width: 480px) {
+                    width: 100% !important;
+                }
                 .logoWrapper{
-                    @media(max-width: 480px) {
-                        width: 100% !important;
-                    }
                     height: 60px;
+                    width: min-content;
                     .logo{
                         width: 100%;
                         height: 100%;
