@@ -25,10 +25,8 @@
   position: relative;
   top: 0;
   left: 0;
-  height: 60px;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: 150px;
+  height: auto;
 }
 .header .header-container .header-wrapper .brand-logo .logoWrapper .logo {
   width: 100%;
