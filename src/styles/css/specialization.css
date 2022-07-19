@@ -3,7 +3,7 @@
   height: -moz-min-content;
   height: min-content;
   padding: 5% 0;
-  background: #dbe0ff;
+  background: linear-gradient(145deg, #01122a, #040d1b);
 }
 .specialization .specWrapper {
   margin: 0 5%;

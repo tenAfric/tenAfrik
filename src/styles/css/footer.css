@@ -48,6 +48,7 @@
 .footer .footerWrapper .fSections .fDrop {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .footer .footerWrapper .fSections .fDrop .fResources {
   font-weight: 900;
