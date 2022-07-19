@@ -5,7 +5,7 @@ $bgLightTheme: #dbe0ff;
 .specialization{
     height: min-content;
     padding: 5% 0;
-    background: $bgLightTheme;
+    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
     .specWrapper{
         margin: 0 5%;
         @media(max-width: 480px){
