@@ -2,16 +2,30 @@ $bgDarkLight: #011b3f;
 $bgDarkDark: #010f25;
 
 .landing{
-    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    //background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../../assets/images/beautiful_girl_coding.jpg');
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
     .landing-section{
+        height: 100vh;
         @media(max-width: 480px){
             margin-top: 0 !important;
         }
         .landing-wrapper{
+            height: 100%;
             margin: 0 5%;
             justify-content: space-between;
+            position: relative;
             .landing-texts{
-                width: 40%;
+                width: 50%;
+                margin: 0 !important;
+                position: absolute;
+                top: 10%;
+                left: 5%;
+                @media(min-width: 1440px){
+                    top: 20%;
+                }
                 @media(max-width: 480px){
                     width: 100%;
                     margin-top: 20px;
@@ -19,19 +33,29 @@ $bgDarkDark: #010f25;
                 .landing-txt-header{
                     font-weight: 600;
                     line-height: 1.2;
+                    margin-bottom: 30px;
+                    @media(max-width: 480px){
+                        font-size: 2.7rem;
+                    }
                 }
                 .landing-txt-paragraph{
                     font-weight: 400;
                     color: #aaaaaa;
+                    margin-bottom: 50px;
                 }
                 .lng-cta{
-                    background-color: #e6e6e6;
-                    color: #010f25;
-                    border-radius: 6px;
+                    background-color: #4f60ff;
+                    color: #ffffff;
+                    padding: 10px 25px;
+                    border-radius: 23px;
                     cursor: pointer;
                 }
             }
             .landing-image{
+                margin: 0 !important;
+                position: absolute;
+                top: 10%;
+                right: 0%;
                 @media(max-width: 480px){
                     display: none !important;
                 }

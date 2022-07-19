@@ -2,18 +2,26 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  background: linear-gradient(145deg, #011b3f, #010f25);
 }
 .footer .footerWrapper {
   margin: 5%;
+  margin-top: 0;
+  padding-top: 20px;
   flex-wrap: wrap;
 }
 .footer .footerWrapper .fSections {
-  height: 200px;
   min-width: 200px;
   margin: 10px;
   background-color: rgba(255, 255, 255, 0);
   flex: 1;
   padding: 20px;
+}
+@media (max-width: 480px) {
+  .footer .footerWrapper .fSections {
+    padding: 0 10px;
+    margin: 5px 10px;
+  }
 }
 .footer .footerWrapper .fSections h1 {
   font-weight: 700;
@@ -22,18 +30,75 @@
   margin: 10px;
 }
 .footer .footerWrapper .fSections .socialIcons .socLinks .facebookLogo {
-  fill: #3935F8;
+  fill: #4267B2;
   height: 25px;
 }
 .footer .footerWrapper .fSections .socialIcons .socLinks .twitterLogo {
-  fill: #3FBAFF;
+  fill: #1DA1F2;
   height: 25px;
 }
 .footer .footerWrapper .fSections .socialIcons .socLinks .linkedInLogo {
-  fill: #2662FD;
+  fill: #0077B5;
   height: 25px;
 }
 .footer .footerWrapper .fSections .socialIcons .socLinks .instagramLogo {
   fill: #fd21e3;
   height: 25px;
+}
+.footer .footerWrapper .fSections .fDrop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footerWrapper .fSections .fDrop .fResources {
+  font-weight: 900;
+}
+.footer .footerWrapper .fSections .fDrop .angleDown {
+  fill: #fff;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+@media (min-width: 480px) {
+  .footer .footerWrapper .fSections .fDrop .angleDown {
+    display: none !important;
+  }
+}
+.footer .footerWrapper .fSections .fDrop .angleRight {
+  transform: rotate(-90deg);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+@media (max-width: 480px) {
+  .footer .footerWrapper .fSections ul {
+    display: none;
+  }
+}
+.footer .footerWrapper .fSections ul li {
+  margin-bottom: 1rem;
+}
+.footer .footerWrapper .fSections .showFLinks {
+  display: unset !important;
+}
+.footer .footerWrapper .fSections .faqShow {
+  display: flex;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+.footer .footerCopyright {
+  width: 100%;
+  text-align: center;
+}
+.footer .footerCopyright p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer .footerCopyright p span span a .githubIcon {
+  height: 15px;
+  fill: #fff;
+  display: unset !important;
+  margin-bottom: 3px;
+  margin-left: 5px;
 }/*# sourceMappingURL=footer.css.map */
