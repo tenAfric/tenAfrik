@@ -1,0 +1,462 @@
+.blogParent {
+  transition: 0.4s;
+}
+
+/*==== blog landing ====*/
+.showSearchModal {
+  display: unset !important;
+}
+
+.searchModal {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.9568627451);
+}
+@media (max-width: 600px) {
+  .searchModal {
+    padding: 0 3%;
+  }
+}
+.searchModal::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+@media (max-width: 600px) {
+  .searchModal::-webkit-scrollbar {
+    width: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+.searchModal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.searchModal::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 23px;
+}
+.searchModal .closeSearch {
+  height: 30px;
+  fill: #f1f1f1;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.searchModal .smodSearchForm {
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+@media (max-width: 480px) {
+  .searchModal .smodSearchForm {
+    margin-top: 20%;
+    margin-bottom: 15%;
+  }
+}
+.searchModal .smodSearchForm form {
+  width: 30%;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .searchModal .smodSearchForm form {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .searchModal .smodSearchForm form {
+    width: 80%;
+  }
+}
+.searchModal .smodSearchForm form .blogModSearch {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #ff9f0e;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 5px;
+}
+.searchModal .highflex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+.searchModal .highflex .highblogcard {
+  width: 380px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  cursor: pointer !important;
+}
+.searchModal .highflex .highblogcard .bloghighImage {
+  flex: 0 0 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden !important;
+}
+.searchModal .highflex .highblogcard .bloghighImage img {
+  max-height: 250px;
+  height: auto !important;
+  border-radius: 0;
+  box-shadow: initial;
+  padding: 0 !important;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(90%);
+  transition: 0.5s;
+  vertical-align: middle;
+  border-style: none;
+}
+.searchModal .highflex .highblogcard .bloghighImage img:hover {
+  margin-top: 0;
+  filter: initial;
+  box-shadow: initial;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.searchModal .highflex .highblogcard .bloghighTitle {
+  padding: 10px;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .bloghighInfo p {
+  margin-left: 0px;
+  color: #b2b2b2;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .bloghighInfo p span {
+  text-transform: uppercase;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertTitle {
+  color: inherit;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertTitle h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
+  cursor: pointer;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertTitle h2:hover {
+  transition: 0.3s;
+  color: #0088f0;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertTitle p {
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
+  cursor: pointer;
+  color: #b2b2b2;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertReadMore {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  display: flex;
+  margin-top: 5px;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertReadMore:hover {
+  color: #0088f0;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertReadMore:hover span {
+  margin-right: -5px;
+  margin-left: 10px;
+  color: #0088f0;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertReadMore span {
+  margin-left: 6px;
+  transition: 0.3s;
+  margin-top: 2.5px;
+}
+.searchModal .highflex .highblogcard .bloghighTitle .aertReadMore span .arrowRight {
+  height: 15px;
+  fill: #0088f0;
+}
+
+.blog-sec-top {
+  text-align: center;
+  padding: 3% 20%;
+  padding-bottom: 2%;
+}
+.blog-sec-top h1 {
+  font-size: 4rem;
+}
+@media (max-width: 480px) {
+  .blog-sec-top h1 {
+    font-size: 2rem;
+  }
+}
+.blog-sec-top p {
+  font-size: 0.9rem;
+}
+@media (max-width: 480px) {
+  .blog-sec-top p {
+    font-size: 0.7rem;
+  }
+}
+
+.blog-landing .blog-landing-wrapper {
+  margin: 20px 5%;
+}
+.blog-landing .blog-landing-wrapper .spot-blog {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+@media (max-width: 1000px) {
+  .blog-landing .blog-landing-wrapper .spot-blog {
+    flex-direction: column;
+  }
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-image {
+  width: 49%;
+}
+@media (max-width: 1000px) {
+  .blog-landing .blog-landing-wrapper .spot-blog .spot-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts {
+  width: 49%;
+}
+@media (max-width: 1000px) {
+  .blog-landing .blog-landing-wrapper .spot-blog .spot-texts {
+    width: 100%;
+  }
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-category {
+  padding: 5px;
+  border-radius: 6px;
+  background-color: rgba(66, 99, 111, 0.7843137255);
+  cursor: pointer;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-date {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts h2 {
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.48px;
+  margin: 0 0 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts p a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-author img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-author .spot-author-name {
+  margin-left: 10px;
+}
+.blog-landing .blog-landing-wrapper .spot-blog .spot-texts .spot-author .spot-author-name p {
+  font-size: 0.7rem;
+}
+
+.blogs-showcase {
+  margin: 0 5%;
+}
+.blogs-showcase .bloghighHeader {
+  display: flex;
+  margin: 3%;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+@media (max-width: 700px) {
+  .blogs-showcase .bloghighHeader {
+    justify-content: unset;
+  }
+}
+.blogs-showcase .bloghighHeader .blogsFileters {
+  display: flex;
+}
+@media (max-width: 700px) {
+  .blogs-showcase .bloghighHeader .blogsFileters {
+    display: none;
+  }
+}
+.blogs-showcase .bloghighHeader .blogsFileters .filter {
+  padding: 8px 15px;
+  border-radius: 23px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #eaeaea;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.blogs-showcase .bloghighHeader .blogsFileters .filter:nth-child(1) {
+  margin-left: -20px !important;
+}
+.blogs-showcase .bloghighHeader .blogsFileters .filter:hover {
+  background-color: #505050;
+}
+.blogs-showcase .bloghighHeader .blogsFileters .activeFilter {
+  background-color: #0088f0;
+}
+.blogs-showcase .bloghighHeader .blogsFileters .activeFilter:hover {
+  background-color: #0088f0 !important;
+}
+.blogs-showcase .bloghighHeader .viewIcon {
+  display: flex;
+  margin-top: 10px;
+}
+@media (max-width: 700px) {
+  .blogs-showcase .bloghighHeader .viewIcon {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.blogs-showcase .bloghighHeader .viewIcon .filtersIcons {
+  fill: #ececec;
+  height: 15px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.blogs-showcase .highflex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+.blogs-showcase .highflex .highblogcard {
+  width: 380px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  cursor: pointer !important;
+}
+.blogs-showcase .highflex .highblogcard .bloghighImage {
+  flex: 0 0 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden !important;
+}
+.blogs-showcase .highflex .highblogcard .bloghighImage img {
+  max-height: 250px;
+  height: auto !important;
+  border-radius: 0;
+  box-shadow: initial;
+  padding: 0 !important;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(90%);
+  transition: 0.5s;
+  vertical-align: middle;
+  border-style: none;
+}
+.blogs-showcase .highflex .highblogcard .bloghighImage img:hover {
+  margin-top: 0;
+  filter: initial;
+  box-shadow: initial;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle {
+  padding: 10px;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .bloghighInfo p {
+  margin-left: 0px;
+  color: #b2b2b2;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .bloghighInfo p span {
+  text-transform: uppercase;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertTitle {
+  color: inherit;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertTitle h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
+  cursor: pointer;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertTitle h2:hover {
+  transition: 0.3s;
+  color: #0088f0;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertTitle p {
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-word;
+  cursor: pointer;
+  color: #b2b2b2;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertReadMore {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  display: flex;
+  margin-top: 5px;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertReadMore:hover {
+  color: #0088f0;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertReadMore:hover span {
+  margin-right: -5px;
+  margin-left: 10px;
+  color: #0088f0;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertReadMore span {
+  margin-left: 6px;
+  transition: 0.3s;
+  margin-top: 2.5px;
+}
+.blogs-showcase .highflex .highblogcard .bloghighTitle .aertReadMore span .arrowRight {
+  height: 15px;
+  fill: #0088f0;
+}/*# sourceMappingURL=blog.css.map */

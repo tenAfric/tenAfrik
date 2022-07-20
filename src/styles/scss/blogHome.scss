@@ -4,7 +4,7 @@ $bgDarkDark: #040d1b;
 $bgLightTheme: #dbe0ff;
 
 .bloghigh{
-    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    background: $bgLightTheme;
     .highwrapper{
         .highcontainer{
             margin: 0 5%;
@@ -24,6 +24,11 @@ $bgLightTheme: #dbe0ff;
                     @media(min-width: 1440px){
                         margin-top: -10px;
                         margin-bottom: 10px;
+                    }
+                    @media(max-width: 480px){
+                        font-size: 1rem !important;
+                        margin-left: -5%;
+                        margin-top: -7px;
                     }
                 }
                 .blogLinks{

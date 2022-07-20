@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const tos = () => {
   return (
-    <div>tos</div>
+    <Fragment>
+        <Header />
+        <Footer />
+    </Fragment>
   )
 }
 

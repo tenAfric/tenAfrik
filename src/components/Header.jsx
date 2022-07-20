@@ -33,7 +33,7 @@ const Header = () => {
                   <h2 className="mobiLogo font-bold text-4xl">tenAfric</h2>
                   <li><Link to="/" className="text-1xl nav-links">Home</Link></li>
                   <li><Link to="/about" className="text-1xl nav-links">About</Link></li>
-                  <li><Link to="/services" className="text-1xl nav-links">Services</Link></li>
+                  <li><Link to="/blog" className="text-1xl nav-links">Blog</Link></li>
                   <li><Link to="/contact" className="text-1xl nav-links">Contact</Link></li>
                 </ul>
               </nav>

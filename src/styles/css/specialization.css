@@ -3,7 +3,7 @@
   height: -moz-min-content;
   height: min-content;
   padding: 5% 0;
-  background: linear-gradient(145deg, #01122a, #040d1b);
+  background: #dbe0ff;
 }
 .specialization .specWrapper {
   margin: 0 5%;
@@ -55,7 +55,7 @@
   border-radius: 10px;
   padding: 20px;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/guy_coding.jpg");
+  background: linear-gradient(rgba(6, 0, 1, 0.8), rgba(6, 0, 77, 0.8)), url("../../assets/images/lady_coding.jpg");
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;

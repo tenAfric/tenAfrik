@@ -1,5 +1,5 @@
 .landing {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/beautiful_girl_coding.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/lady_coding.jpg");
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +18,11 @@
   justify-content: space-between;
   position: relative;
 }
+@media (max-width: 480px) {
+  .landing .landing-section .landing-wrapper {
+    margin: 0;
+  }
+}
 .landing .landing-section .landing-wrapper .landing-texts {
   width: 50%;
   margin: 0 !important;
@@ -32,7 +37,7 @@
 }
 @media (max-width: 480px) {
   .landing .landing-section .landing-wrapper .landing-texts {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
   }
 }
@@ -52,7 +57,7 @@
   margin-bottom: 50px;
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
-  background-color: #4f60ff;
+  background-color: #256aff;
   color: #ffffff;
   padding: 10px 25px;
   border-radius: 23px;

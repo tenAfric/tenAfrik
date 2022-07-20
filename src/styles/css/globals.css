@@ -96,6 +96,18 @@ html, body {
   line-height: 1.5;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 23px;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -106,4 +118,9 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/*===hide body scrollbar===*/
+.hideBodyScrollBar {
+  overflow: hidden !important;
 }/*# sourceMappingURL=globals.css.map */
