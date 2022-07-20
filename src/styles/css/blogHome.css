@@ -1,6 +1,6 @@
 /* ======blog highlights stylings====== */
 .bloghigh {
-  background: linear-gradient(145deg, #01122a, #040d1b);
+  background: #dbe0ff;
 }
 .bloghigh .highwrapper .highcontainer {
   margin: 0 5%;
@@ -26,6 +26,13 @@
   .bloghigh .highwrapper .highcontainer .bloghighHeader h1 {
     margin-top: -10px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .bloghigh .highwrapper .highcontainer .bloghighHeader h1 {
+    font-size: 1rem !important;
+    margin-left: -5%;
+    margin-top: -7px;
   }
 }
 .bloghigh .highwrapper .highcontainer .bloghighHeader .blogLinks {
