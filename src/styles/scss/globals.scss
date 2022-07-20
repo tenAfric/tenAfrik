@@ -28,6 +28,19 @@ html,body{
     scroll-behavior: smooth;
     line-height: 1.5;
 }
+body{
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ffffff00;
+  }
+  &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+  &::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 23px;
+  }
+}
 
 //hide increment and decrement in number input types
 /* Chrome, Safari, Edge, Opera */
@@ -54,3 +67,8 @@ input[type=number] {
 //         scrollbar-color: transparent transparent;
 //     }
 // }
+
+/*===hide body scrollbar===*/
+.hideBodyScrollBar{
+  overflow: hidden !important;
+}
