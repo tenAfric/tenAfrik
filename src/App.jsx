@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './routes/Home'
 import About from './routes/About'
-import Services from './routes/Services'
+import Blog from './routes/Blog'
 import Contact from './routes/Contact'
 import Cookies from './routes/cookies'
 import Privacy from './routes/privacy'
@@ -16,7 +16,7 @@ const App =() => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/privacy" element={<Privacy />} />

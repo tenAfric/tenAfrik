@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const About = () => {
+const Read = () => {
   return (
     <Fragment>
         <Header />
@@ -11,4 +11,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Read

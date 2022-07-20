@@ -1,3 +1,17 @@
 {
-    
+    "blogs": [
+        {
+            "category": "Web Development",
+            "DatePosted": "JUNE 22 2022",
+            "approxReadMinutes": "20",
+            "id": "3h62oie6%hjd@",
+            "slug": "7-frontend-javascript-frameworks-loved-by-developers-in-2022",
+            "title": "7 Frontend JavaScript Frameworks Loved by Developers in 2022",
+            "readHighlight": "is undoubtedly quite popular in building interactive and multimedia content. In 2021, it completed the ninth year in a row as the most commonly used programming language. A JavaScript frontend framework is a collection of JavaScript code libraries that helps developers with standard programming features and tasks. In addition, it offers reusable code components, a universal development environment, compilers, toolsets, code libraries, APIs, etc., to facilitate the app.",
+            "author": "Dennis Kibet",
+            "authorRank": "CEO",
+            "authorImage": "./images/kibet.png",
+            "highlight": "true"
+        }
+    ]
 }
