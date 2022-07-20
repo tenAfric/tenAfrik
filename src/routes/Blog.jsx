@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import '../styles/css/blog.css'
+import data from '../data/blogdata.json'
 import { Link } from 'react-router-dom'
 import { ReactComponent as ArrowRight } from '../assets/svg/arrowRight.svg'
 import { ReactComponent as Search } from '../assets/svg/search.svg'
@@ -66,108 +67,25 @@ const Blog = () => {
                   </div>
               </div>
               <div class="highflex">
-                  <div class="highblogcard">
+                {data.blogs.map((data)=>{return(
+                  <div class="highblogcard" key={data.id}>
                       <div class="bloghighImage">
                           <img src={Agility} alt="" />
                       </div>
                       <div class="bloghighTitle">
                           <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
+                              <h2>{data.title}</h2>
                           </Link>
                           <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
+                              <p><span>{data.DatePosted}</span> . {data.approxReadMinutes}min read</p>
                           </div>
                           <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
+                              <p>{data.readHighlight}</p>
                           </Link>
                           <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
                       </div>
                   </div>
-                  <div class="highblogcard">
-                      <div class="bloghighImage">
-                          <img src={Agility} alt="" />
-                      </div>
-                      <div class="bloghighTitle">
-                          <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
-                          </Link>
-                          <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
-                          </div>
-                          <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
-                          </Link>
-                          <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
-                      </div>
-                  </div>
-                  <div class="highblogcard">
-                      <div class="bloghighImage">
-                          <img src={Agility} alt="" />
-                      </div>
-                      <div class="bloghighTitle">
-                          <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
-                          </Link>
-                          <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
-                          </div>
-                          <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
-                          </Link>
-                          <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
-                      </div>
-                  </div>
-                  <div class="highblogcard">
-                      <div class="bloghighImage">
-                          <img src={Agility} alt="" />
-                      </div>
-                      <div class="bloghighTitle">
-                          <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
-                          </Link>
-                          <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
-                          </div>
-                          <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
-                          </Link>
-                          <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
-                      </div>
-                  </div>
-                  <div class="highblogcard">
-                      <div class="bloghighImage">
-                          <img src={Agility} alt="" />
-                      </div>
-                      <div class="bloghighTitle">
-                          <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
-                          </Link>
-                          <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
-                          </div>
-                          <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
-                          </Link>
-                          <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
-                      </div>
-                  </div>
-                  <div class="highblogcard">
-                      <div class="bloghighImage">
-                          <img src={Agility} alt="" />
-                      </div>
-                      <div class="bloghighTitle">
-                          <Link to="/read" className="aertTitle">
-                              <h2>Wolf3D & Rovio Talking About 3D Avatars and Virtual Identities in Games and Metaverses</h2>
-                          </Link>
-                          <div class="bloghighInfo">
-                              <p><span>April 15, 2022</span> . 5min read</p>
-                          </div>
-                          <Link to="/read" className="aertTitle">
-                              <p>Building your business’s web presence has become a mandate in today’s world of scrolling social media and often landing straight on a shopping website. A professional web application helps your business achieve industry standards and engage your customers with the company’s offerings.</p>
-                          </Link>
-                          <Link to="/read" className="aertReadMore">Read more <span><ArrowRight className="arrowRight"/></span></Link>
-                      </div>
-                  </div>
+                )})}
               </div>
             </section>
         <Footer />
