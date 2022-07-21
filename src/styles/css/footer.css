@@ -2,7 +2,7 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  background: linear-gradient(145deg, #090e14, #000000);
+  background: var(--bg-color-inverse);
 }
 .footer .footerWrapper {
   margin: 5%;
@@ -25,6 +25,10 @@
 }
 .footer .footerWrapper .fSections h1 {
   font-weight: 700;
+  color: var(--text-color-inverse);
+}
+.footer .footerWrapper .fSections p {
+  color: var(--text-color-inverse);
 }
 .footer .footerWrapper .fSections .socialIcons .socLinks {
   margin: 10px;
@@ -52,6 +56,7 @@
 }
 .footer .footerWrapper .fSections .fDrop .fResources {
   font-weight: 900;
+  color: var(--text-color-inverse);
 }
 .footer .footerWrapper .fSections .fDrop .angleDown {
   fill: #fff;
@@ -77,6 +82,7 @@
 }
 .footer .footerWrapper .fSections ul li {
   margin-bottom: 1rem;
+  color: var(--text-color-inverse);
 }
 .footer .footerWrapper .fSections .showFLinks {
   display: unset !important;
@@ -94,6 +100,7 @@
 .footer .footerCopyright p {
   text-align: center;
   padding-bottom: 20px;
+  color: var(--text-color-inverse);
 }
 .footer .footerCopyright p span span a .githubIcon {
   height: 15px;

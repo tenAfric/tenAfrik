@@ -1,6 +1,6 @@
 /* ======blog highlights stylings====== */
 .bloghigh {
-  background: #dbe0ff;
+  background: var(--bg-color);
 }
 .bloghigh .highwrapper .highcontainer {
   margin: 0 5%;
@@ -21,6 +21,7 @@
   font-size: 2rem;
   line-height: 2.25rem;
   font-weight: 700;
+  color: var(--text-color);
 }
 @media (min-width: 1440px) {
   .bloghigh .highwrapper .highcontainer .bloghighHeader h1 {
@@ -41,6 +42,7 @@
   line-height: 1.25rem;
   white-space: nowrap;
   display: flex;
+  color: var(--text-color);
 }
 .bloghigh .highwrapper .highcontainer .bloghighHeader .blogLinks:hover {
   color: #0088f0;
@@ -68,7 +70,7 @@
   width: 350px;
   overflow: hidden;
   border-radius: 6px !important;
-  background-color: #191a53;
+  background-color: var(--bg-card);
   margin-top: 20px;
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighImage {
@@ -110,28 +112,29 @@
   cursor: pointer;
   font-size: 1.5rem;
   line-height: 1.1;
+  color: var(--text-color);
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighTitle .blogLinks h2:hover {
   transition: 0.3s;
   color: #0088f0;
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighTitle .blogLinks p {
-  color: #acacac;
+  color: var(--text-color);
   font-size: 0.9rem;
   margin-bottom: 10px;
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighTitle .blogReadMore {
-  color: #f3faff;
+  color: #ffffff;
   padding: 5px 10px;
   border-radius: 23px;
-  background-color: #f49a00;
+  background-color: var(--color--vivid-cyan-blue);
   cursor: pointer;
   border: none;
   outline: none;
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighTitle .blogHighMeta {
   margin: 5px 0;
-  color: #acacac;
+  color: var(--text-color);
 }
 .bloghigh .highwrapper .highcontainer .highflex .highblogcard .bloghighTitle .blogHighMeta span:nth-child(1) {
   text-transform: uppercase;

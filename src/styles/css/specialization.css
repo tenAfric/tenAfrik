@@ -19,9 +19,8 @@
   background: inherit;
   -webkit-background-clip: text;
   background-clip: text;
-  color: var(--color--white) !important;
+  color: var(--text-color);
   font: 900 8vmin/3rem cookie, cursive;
-  mix-blend-mode: difference;
 }
 @media (max-width: 480px) {
   .specialization .specWrapper .specializationHeader {
@@ -30,7 +29,7 @@
 }
 .specialization .specWrapper .spectxts {
   font-size: 0.9rem;
-  mix-blend-mode: difference;
+  color: var(--text-color);
 }
 .specialization .specWrapper .specCards {
   margin-top: 5%;
@@ -40,6 +39,12 @@
   gap: 1.5rem;
   justify-content: center;
   justify-items: center;
+}
+@media (min-width: 1440px) {
+  .specialization .specWrapper .specCards {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 @media (max-width: 480px) {
   .specialization .specWrapper .specCards {
@@ -51,11 +56,11 @@
   grid-column: span 1;
   height: auto;
   width: 100%;
-  background: linear-gradient(45deg, #6E6BFF, #4A48B9);
+  overflow: hidden;
+  background: linear-gradient(rgba(6, 0, 1, 0.5), rgba(6, 0, 77, 0.6));
   border-radius: 10px;
   padding: 20px;
   position: relative;
-  background: linear-gradient(rgba(6, 0, 1, 0.8), rgba(6, 0, 77, 0.8)), url("../../assets/images/lady_coding.jpg");
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,6 +70,19 @@
     grid-column: span 2;
   }
 }
+.specialization .specWrapper .specCards .specCrds::before {
+  pointer-events: none;
+  content: "";
+  background: linear-gradient(130deg, rgba(2, 92, 98, 0.7529411765), rgba(2, 92, 98, 0.7529411765) 41.07%, #000000 76.05%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: screen;
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
 .specialization .specWrapper .specCards .specCrds .crdsTitle {
   font-size: 1.7rem;
   font-weight: 700;
@@ -72,14 +90,12 @@
   letter-spacing: 1.1px;
   margin-top: 5px;
   margin-bottom: 10px;
-  mix-blend-mode: difference;
   height: inherit;
   background: inherit;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: #ffffff;
   font: 900 5vmin/3rem cookie, cursive;
-  filter: invert(1) grayscale(1) contrast(9);
 }
 @media (max-width: 480px) {
   .specialization .specWrapper .specCards .specCrds .crdsTitle {
@@ -89,7 +105,7 @@
 .specialization .specWrapper .specCards .specCrds p {
   font-size: 1rem;
   margin-bottom: 50px;
-  mix-blend-mode: difference;
+  color: #ffffff;
 }
 .specialization .specWrapper .specCards .specCrds .specKnowMore {
   position: absolute;
@@ -98,6 +114,7 @@
   font-size: 0.8rem;
   letter-spacing: 1.2;
   padding: 10px 20px;
-  background-color: rgba(255, 168, 5, 0.8392156863);
+  background-color: var(--color--vivid-cyan-blue);
   border-radius: 6px;
+  color: #ffffff;
 }/*# sourceMappingURL=specialization.css.map */

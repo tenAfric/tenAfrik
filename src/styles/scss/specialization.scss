@@ -13,16 +13,15 @@
             background: inherit;
             -webkit-background-clip: text;
                     background-clip: text;
-            color: var(--color--white) !important;
+            color: var(--text-color);
             font: 900 8vmin/3rem cookie, cursive;
-            mix-blend-mode: difference;
             @media(max-width: 480px){
                 font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif !important;
             }
         }
         .spectxts{
             font-size: .9rem;
-            mix-blend-mode: difference;
+            color: var(--text-color);
         }
         .specCards{
             margin-top: 5%;
@@ -32,6 +31,10 @@
             gap: 1.5rem;
             justify-content: center;
             justify-items: center;
+            @media(min-width: 1440px){
+                width: 90%;
+                margin-left: 5%;
+            }
             @media(max-width: 480px){
                 width: 100%;
                 margin-left: 0 !important;
@@ -40,19 +43,30 @@
                 grid-column:span 1;
                 height: auto;
                 width: 100%;
-                background: linear-gradient(45deg, #6E6BFF, #4A48B9);
+                overflow: hidden;
+                //background: linear-gradient(45deg, #6E6BFF, #4A48B9);
+                background: linear-gradient(rgba(6, 0, 1, 0.5),rgba(6, 0, 77, 0.6));
                 border-radius: 10px;
                 padding: 20px;
                 position: relative;
-                background: linear-gradient(rgba(6, 0, 1, 0.8),rgba(6, 0, 77, 0.8)), url('../../assets/images/lady_coding.jpg');
                 background-position: center, center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                // -webkit-mask-image: linear-gradient(270deg,#000,transparent);
-                // mask-image: linear-gradient(270deg,#000,transparent);
-                // transition: .5s;
                 @media(max-width: 1000px){
                     grid-column:span 2;
+                }
+                &::before{
+                    pointer-events: none;
+                    content: "";
+                    background: linear-gradient(130deg,#025c62c0,#025c62c0 41.07%,#000000 76.05%);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    mix-blend-mode: screen;
+                    opacity: .75;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
                 }
                 .crdsTitle{
                     font-size: 1.7rem;
@@ -61,14 +75,13 @@
                     letter-spacing: 1.1px;
                     margin-top: 5px;
                     margin-bottom: 10px;
-                    mix-blend-mode: difference;
                     height: inherit;
                     background: inherit;
                     -webkit-background-clip: text;
                             background-clip: text;
-                    color: transparent;
+                    color: #ffffff;
                     font: 900 5vmin/3rem cookie, cursive;
-                    filter: invert(1) grayscale(1) contrast(9);
+                    //filter: invert(1) grayscale(1) contrast(9);
                     @media(max-width: 480px){
                         font-family: Apercu,source sans pro,system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif !important;
                     }
@@ -76,7 +89,7 @@
                 p{
                     font-size: 1rem;
                     margin-bottom: 50px;
-                    mix-blend-mode: difference;
+                    color: #ffffff;
                 }
                 .specKnowMore{
                     position: absolute;
@@ -85,8 +98,9 @@
                     font-size: 0.8rem;
                     letter-spacing: 1.2;
                     padding: 10px 20px;
-                    background-color: #ffa805d6;
+                    background-color: var(--color--vivid-cyan-blue);
                     border-radius: 6px;
+                    color: #ffffff;
                 }
             }
         }

@@ -1,10 +1,6 @@
 /* ======blog highlights stylings====== */
-$bgDarkLight: #01122a;
-$bgDarkDark: #040d1b;
-$bgLightTheme: #dbe0ff;
-
 .bloghigh{
-    background: $bgLightTheme;
+    background: var(--bg-color);
     .highwrapper{
         .highcontainer{
             margin: 0 5%;
@@ -21,6 +17,7 @@ $bgLightTheme: #dbe0ff;
                     font-size: 2rem;
                     line-height: 2.25rem;
                     font-weight: 700;
+                    color: var(--text-color); 
                     @media(min-width: 1440px){
                         margin-top: -10px;
                         margin-bottom: 10px;
@@ -37,6 +34,7 @@ $bgLightTheme: #dbe0ff;
                     line-height: 1.25rem;
                     white-space: nowrap;
                     display: flex;
+                    color: var(--text-color); 
                     &:hover{
                         color: #0088f0;
                         span{
@@ -64,7 +62,7 @@ $bgLightTheme: #dbe0ff;
                     width: 350px;
                     overflow: hidden;
                     border-radius: 6px !important;
-                    background-color: #191a53;
+                    background-color: var(--bg-card);
                     margin-top: 20px;
                     .bloghighImage{
                         flex: 0 0 100%;
@@ -104,32 +102,31 @@ $bgLightTheme: #dbe0ff;
                                 cursor: pointer;
                                 font-size: 1.5rem;
                                 line-height: 1.1;
-                                
+                                color: var(--text-color);
                                 &:hover{
                                     transition: .3s;
                                     color: #0088f0;
                                 }
                             }
                             p{
-                                color: #acacac;
+                                color: var(--text-color);
                                 font-size: 0.9rem;
                                 margin-bottom: 10px;
                                 
                             }
                         }
                         .blogReadMore{
-                            color: #f3faff;
+                            color: #ffffff;
                             padding: 5px 10px;
                             border-radius: 23px;
-                            background-color: #f49a00;
+                            background-color: var(--color--vivid-cyan-blue);
                             cursor: pointer;
                             border: none;
                             outline: none;
                         }
                         .blogHighMeta{
                             margin: 5px 0;
-                            color: #acacac;
-                            
+                            color: var(--text-color);                            
                             span{
                                 &:nth-child(1){
                                     text-transform: uppercase;
