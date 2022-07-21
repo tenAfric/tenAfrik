@@ -60,13 +60,13 @@ const App =() => {
               <Moon className="darkMode" />
           </div>
           <CookieConsent
-          disableStyles={true}
-          location="bottom"
-          buttonText="Okay"
-          cookieName="denniskibet"
-          buttonClasses="button"
-          containerClasses="cookieConsent"
-          expires={150}
+            disableStyles={true}
+            location="bottom"
+            buttonText="Okay"
+            cookieName="tenAfric"
+            buttonClasses="button"
+            containerClasses="cookieConsent"
+            expires={150}
           >
               <p className="cookieText">We use cookies to improve your browsing experience.</p>
           </CookieConsent>
