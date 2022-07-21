@@ -15,11 +15,11 @@ html,body{
     border-style: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    background: var(--bg-color);
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 100%;
-    color: $colorLight;
+    color: var(--text-color);
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
