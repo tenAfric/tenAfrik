@@ -3,6 +3,14 @@
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.landing .lHeader {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
 .landing .landing-section {
   height: 100vh;
@@ -77,9 +85,28 @@
     display: none !important;
   }
 }
+.landing .landing-section .landing-wrapper .landing-image .codeplayArea {
+  background-color: var(--gradient--pale-ocean);
+  padding: 10px;
+  transform: skewX(-20deg);
+}
 .landing .landing-section .landing-wrapper .landing-image .img-landing {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.landing .landing-section .landingBgOne, .landing .landing-section .landingBgTwo, .landing .landing-section .landingBgThree {
+  position: absolute;
+}
+.landing .landing-section .landingBgOne {
+  top: 0;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.941);
+  width: 65%;
+  z-index: 0;
+  margin: 0 0 0 -10%;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
 }/*# sourceMappingURL=landing.css.map */

@@ -38,8 +38,11 @@ const Landing = () => {
           <title>Home | tenAfric</title>
         </Helmet>
       <div className="h-screen landing">
-        <Header/>
+        <Header className="lHeader"/>
         <div className="landing-section mt-16">
+          <div className="landingBgOne"></div>
+          <div className="landingBgTwo"></div>
+          <div className="landingBgThree"></div>
           <div className="landing-wrapper flex">
             <div className="landing-texts mt-12">
               <h1 className="landing-txt-header mt-8 text-[3.2rem]">Expanding your market to greater horizons</h1>
@@ -47,7 +50,7 @@ const Landing = () => {
               <Link to="/contact" className="lng-cta p-3">Contact Us</Link>
             </div>
             <div className="landing-image mt-8">
-              <div className="codeplay-area">
+              <div className="codeplayArea">
                   <TypeIt options={{ startDelay: 900,   afterComplete: function (instance) {instance.destroy();} }}>
                       <SuperStrong>Super strong text.</SuperStrong>
                   </TypeIt>
