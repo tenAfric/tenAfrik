@@ -2,6 +2,13 @@
   height: 40px;
 }
 
+.header {
+  position: relative;
+  top: 0;
+  z-index: 999;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid #cbcbcb;
+}
 @media (min-width: 1440px) {
   .header .header-container {
     margin: 0 10%;
@@ -25,8 +32,10 @@
   position: relative;
   top: 0;
   left: 10%;
+  z-index: 999;
   width: 150px;
   height: auto;
+  margin-top: -5px;
 }
 @media (max-width: 480px) {
   .header .header-container .header-wrapper .brand-logo .logoWrapper {
@@ -40,10 +49,15 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.header .header-container .header-wrapper .posUnset {
+  position: unset !important;
+}
 .header .header-container .header-wrapper .navigation {
   align-items: center;
   margin-top: -20px;
   width: 60%;
+  position: relative;
+  z-index: 999;
 }
 @media (max-width: 320px) {
   .header .header-container .header-wrapper .navigation {
@@ -53,26 +67,28 @@
 .header .header-container .header-wrapper .navigation .openMobiMenu {
   display: none;
   width: 25px;
-  fill: #f3f3f3 !important;
+  fill: var(--text-color);
 }
-.header .header-container .header-wrapper .navigation .menu .closeMobiMenu {
+.header .header-container .header-wrapper .navigation .menuMbi .closeMobiMenu {
   display: none;
 }
-.header .header-container .header-wrapper .navigation .menu ul {
+.header .header-container .header-wrapper .navigation .menuMbi ul {
   align-items: center;
 }
-.header .header-container .header-wrapper .navigation .menu ul .mobiLogo {
+.header .header-container .header-wrapper .navigation .menuMbi ul .mobiLogo {
   display: none;
 }
-.header .header-container .header-wrapper .navigation .menu ul li .nav-links {
+.header .header-container .header-wrapper .navigation .menuMbi ul li .nav-links {
   letter-spacing: 1.5px;
   cursor: pointer;
   margin: 0 20px;
+  color: var(--text-color);
 }
 .header .header-container .header-wrapper .navigation .header-cta .header-cta-btn {
   background-color: #256aff;
   border-radius: 23px;
   padding: 8px 25px;
+  color: #ffffff;
 }
 @media (max-width: 500px) {
   .header .header-container .header-wrapper .navigation .header-cta .header-cta-btn {
@@ -93,55 +109,60 @@
   .shwMobiMenu {
     right: 0 !important;
     left: 0 !important;
+    height: 100vh !important;
+  }
+  .shwMobiMenu ~ .navigation {
+    position: unset !important;
   }
   .header-cta .header-cta-btn {
     background-color: #4f60ff;
     border-radius: 6px;
     font-size: 0.9rem;
   }
-  .menu {
+  .menuMbi {
     position: absolute;
     z-index: 999;
-    background-color: #010f25;
+    background-color: var(--bg-color);
     top: 0;
     bottom: 0;
     right: unset;
-    left: -100%;
+    left: -200%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     transition: 3s, ease-in-out;
   }
-  .menu .closeMobiMenu {
+  .menuMbi .closeMobiMenu {
     display: unset !important;
     position: absolute;
     top: 20px;
     right: 25px;
     width: 15px;
-    fill: #f3f3f3;
+    fill: var(--text-color);
     cursor: pointer;
   }
-  .menu .closeMobiMenu:hover {
+  .menuMbi .closeMobiMenu:hover {
     fill: #4f60ff;
   }
-  .menu ul {
+  .menuMbi ul {
     align-items: center;
     flex-direction: column !important;
     vertical-align: middle;
     margin-top: 150px;
   }
-  .menu ul .mobiLogo {
+  .menuMbi ul .mobiLogo {
     display: unset !important;
     position: absolute;
     top: 10px;
     left: 20px;
     font-size: 2rem;
     margin-top: 5px;
+    color: var(--text-color);
   }
-  .menu ul li {
+  .menuMbi ul li {
     margin: 15px 0;
   }
-  .menu ul li .nav-links {
+  .menuMbi ul li .nav-links {
     font-size: 1.4rem;
   }
 }/*# sourceMappingURL=header.css.map */

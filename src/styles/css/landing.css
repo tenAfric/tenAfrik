@@ -1,8 +1,16 @@
 .landing {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/lady_coding.jpg");
+  background: var(--bg-color);
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.landing .lHeader {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
 .landing .landing-section {
   height: 100vh;
@@ -32,7 +40,7 @@
 }
 @media (min-width: 1440px) {
   .landing .landing-section .landing-wrapper .landing-texts {
-    top: 20%;
+    top: 10%;
   }
 }
 @media (max-width: 480px) {
@@ -44,6 +52,7 @@
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
   font-weight: 600;
   line-height: 1.2;
+  color: var(--text-color);
   margin-bottom: 30px;
 }
 @media (max-width: 480px) {
@@ -53,7 +62,7 @@
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-paragraph {
   font-weight: 400;
-  color: #aaaaaa;
+  color: var(--text-color);
   margin-bottom: 50px;
 }
 .landing .landing-section .landing-wrapper .landing-texts .lng-cta {
@@ -66,8 +75,8 @@
 .landing .landing-section .landing-wrapper .landing-image {
   margin: 0 !important;
   position: absolute;
-  top: 10%;
-  right: 0%;
+  top: 20%;
+  right: -5%;
   width: 40%;
   padding-right: 10%;
 }
@@ -76,9 +85,55 @@
     display: none !important;
   }
 }
+.landing .landing-section .landing-wrapper .landing-image .codeplayArea {
+  background-color: var(--gradient--pale-ocean);
+  padding: 10px;
+  transform: skewX(-10deg);
+  margin-left: 10%;
+}
 .landing .landing-section .landing-wrapper .landing-image .img-landing {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.landing .landing-section .landingBgOne, .landing .landing-section .landingBgTwo, .landing .landing-section .landingBgThree {
+  position: absolute;
+}
+.landing .landing-section .landingBgOne {
+  top: 0;
+  height: 100vh;
+  background-color: var(--bg-color);
+  width: 65%;
+  z-index: 0;
+  margin: 0 0 0 -10%;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+@media (max-width: 680px) {
+  .landing .landing-section .landingBgOne {
+    background-color: transparent !important;
+  }
+}
+.landing .landing-section .landingBgOne .bGOneUnskew {
+  margin: 0 0 0 20%;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.landing .landing-section .landingBgOne .bGOneUnskew .bgHex {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.landing .landing-section .landingBgTwo {
+  top: 20%;
+  right: 20%;
 }/*# sourceMappingURL=landing.css.map */

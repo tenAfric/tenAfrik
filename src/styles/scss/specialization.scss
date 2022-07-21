@@ -1,11 +1,7 @@
-$bgDarkLight: #01122a;
-$bgDarkDark: #040d1b;
-$bgLightTheme: #dbe0ff;
-
 .specialization{
     height: min-content;
     padding: 5% 0;
-    background: $bgLightTheme;
+    background: var(--bg-color);
     .specWrapper{
         margin: 0 5%;
         @media(max-width: 480px){
@@ -17,7 +13,7 @@ $bgLightTheme: #dbe0ff;
             background: inherit;
             -webkit-background-clip: text;
                     background-clip: text;
-            color: #ffffff !important;
+            color: var(--color--white) !important;
             font: 900 8vmin/3rem cookie, cursive;
             mix-blend-mode: difference;
             @media(max-width: 480px){

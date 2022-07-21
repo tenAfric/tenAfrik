@@ -3,7 +3,7 @@
   height: -moz-min-content;
   height: min-content;
   padding: 5% 0;
-  background: #dbe0ff;
+  background: var(--bg-color);
 }
 .specialization .specWrapper {
   margin: 0 5%;
@@ -19,7 +19,7 @@
   background: inherit;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #ffffff !important;
+  color: var(--color--white) !important;
   font: 900 8vmin/3rem cookie, cursive;
   mix-blend-mode: difference;
 }

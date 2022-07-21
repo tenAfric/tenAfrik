@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="817" height="282" viewBox="0 0 817 282">
+    <defs>
+        <linearGradient id="focm6qd1ra" x1="49.307%" x2="49.307%" y1="100%" y2=".135%">
+            <stop offset="0%" stop-color="#FEFEFF"/>
+            <stop offset="99.963%" stop-color="#9AD5FF"/>
+            <stop offset="100%" stop-color="#99D4FF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke="#4A90E2" stroke-width=".85">
+        <g>
+            <path d="M84 24L136.828 54.5 136.828 115.5 84 146 31.172 115.5 31.172 54.5z" opacity=".403" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -228.492)"/>
+            <path fill="#FFF" d="M579 81L631.828 111.5 631.828 172.5 579 203 526.172 172.5 526.172 111.5z" opacity=".203" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -2018.857)"/>
+            <path fill="#FFF" d="M183 81L235.828 111.5 235.828 172.5 183 203 130.172 172.5 130.172 111.5z" opacity=".6" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -540.965)"/>
+            <path fill="#FFF" d="M381 81L433.828 111.5 433.828 172.5 381 203 328.172 172.5 328.172 111.5z" opacity=".203" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -1279.911)"/>
+            <path fill="#FFF" d="M84 138L136.828 168.5 136.828 229.5 84 260 31.172 229.5 31.172 168.5z" opacity=".603" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -114.492)"/>
+            <path d="M282 23L334.828 53.5 334.828 114.5 282 145 229.172 114.5 229.172 53.5z" opacity=".203" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -968.438)"/>
+            <path d="M480 23L532.828 53.5 532.828 114.5 480 145 427.172 114.5 427.172 53.5z" opacity=".6" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -1707.384)"/>
+            <path d="M678 23L730.828 53.5 730.828 114.5 678 145 625.172 114.5 625.172 53.5z" opacity=".203" transform="translate(-22 -30) matrix(-1 0 0 1 762 59) scale(-1 1) rotate(30 0 -2446.33)"/>
+        </g>
+        <g>
+            <path fill="url(#focm6qd1ra)" d="M678 23L730.828 53.5 730.828 114.5 678 145 625.172 114.5 625.172 53.5z" opacity=".503" transform="translate(-22 -30) matrix(1 0 0 -1 99 285) scale(-1 1) rotate(30 0 -2446.33)"/>
+            <path d="M84 140L136.828 170.5 136.828 231.5 84 262 31.172 231.5 31.172 170.5z" opacity=".603" transform="translate(-22 -30) matrix(1 0 0 -1 99 285) scale(-1 1) rotate(30 0 -112.492)"/>
+        </g>
+    </g>
+</svg>

@@ -15,11 +15,11 @@ html,body{
     border-style: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(145deg, $bgDarkLight, $bgDarkDark);
+    background: var(--bg-color);
     background-repeat: no-repeat;
     background-position: 50% 0;
     width: 100%;
-    color: $colorLight;
+    color: var(--text-color);
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
@@ -71,4 +71,111 @@ input[type=number] {
 /*===hide body scrollbar===*/
 .hideBodyScrollBar{
   overflow: hidden !important;
+}
+
+/*===theme toggler===*/
+[data-theme='light'] {
+  --bg-color: #d6ffef;
+  --text-color: #444452;
+  --back-related: #98b2dd;
+  --toggle-transform: translate(0);
+  transition: 0.5s;
+}
+
+[data-theme='dark'] {
+  --bg-color: #171c28;
+  --text-color: rgb(230, 230, 230);
+  --back-related: #1e304d;
+  --toggle-transform: translate(120%);
+  transition: 0.5s;
+}
+.contents{
+  transition: all 0.2s ease-in-out 0s;
+}
+.lightMode, .darkMode{
+  stroke: var(--text-color);
+  height: 17px;
+  width: 17px;
+}
+.themeControls{
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  margin-top: 75px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  .themeToggle{
+      height: 25px;
+      width: 50px;
+      border-radius: 30px;
+      background-color: rgb(156, 156, 156);
+      margin: 0 10px;
+      position: relative;
+      cursor: pointer;
+      .toggleButton{
+          height: 21px;
+          width: 21px;
+          margin: 2px;
+          border-radius: 50%;
+          background-color: #fff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: var(--toggle-transform);
+          transition: all 0.2s ease-in-out 0s;
+      }
+  }
+}
+.hidecontents{
+  display: none !important;
+}
+
+.sCounter, .secCounter, .pCounter, .eCounter{
+  font-family: Inconsolata,monospace !important;
+}
+
+//cookie notification
+.cookieConsent{
+  width: 190px;
+  //background: url('../../images/cookie-bg.png') center center / 100% 100% no-repeat;
+  position: fixed;
+  right: 0px;
+  padding: 14px 64px 20px 20px;
+  z-index: 98;
+  left: 16px;
+  bottom: 16px !important;
+}
+.cookieText{
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  color: rgb(61, 61, 61);
+  letter-spacing: 0.1px;
+}
+.cookiehiglight{
+  font-style: italic;
+  font-weight: 700;
+}
+.privacyPolicy{
+  text-decoration: underline;
+}
+
+.button{
+  font-size: 14px;
+  line-height: 15px;
+  padding: 9px 22px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  background: transparent;
+  transition: color 0.15s ease-in-out 0s;
+  display: inline-block;
 }
