@@ -2,14 +2,19 @@ import React, { useState, Fragment } from 'react'
 import '../styles/css/header.css'
 import Helmet from 'react-helmet'
 import { Link } from 'react-router-dom'
-import Logo from '../assets/images/logo-white.png'
+import LogoW from '../assets/images/logo-white.png'
+import LogoB from '../assets/images/logo-black.png'
 import { ReactComponent as Bars } from '../assets/svg/bars.svg'
 import { ReactComponent as Times } from '../assets/svg/x-mark.svg'
 
-const Header = () => {
+const Header = (props) => {
   const[mobi, setMobi] = useState(false)
   const handleMobiMenu = (e) => {
-    (e==='open')? setMobi(true):setMobi(false)
+    if (e==='open'){
+      setMobi(true);
+    } else {
+      setMobi(false)
+    }
   }
   return (
     <Fragment>
@@ -18,16 +23,19 @@ const Header = () => {
         <link rel="canonical" href="http://tenafric.com" />
       </Helmet>
       <header className="header h-16">
-        <div className="xl:container mx-auto header-container pt-8">
+        <div className="xl:container mx-auto header-container pt-4 pb-4">
           <div className="flex header-wrapper items-center">
             <div className="brand-logo">
               <div className="logoWrapper">
                 {/* <h1 className="logo-text font-bold text-4xl">tenAfric</h1> */}
-                <img className="logo" src={Logo} alt="tenAfric" />
+                {(props.theme==='dark')?
+                 <img className="logo" src={LogoW} alt="tenAfric" />
+                :
+                <img className="logo" src={LogoB} alt="tenAfric" />}
               </div>
             </div>
-            <div className="navigation pt-2 flex gap-6 justify-end">
-              <nav className={(mobi)?"menu shwMobiMenu":"menu"}>
+            <div className={(mobi)?"posUnset navigation pt-2 flex gap-6 justify-end":"navigation pt-2 flex gap-6 justify-end"}>
+              <nav className={(mobi)?"menuMbi shwMobiMenu":"menuMbi"}>
                 <Times className="closeMobiMenu" onClick={()=>handleMobiMenu('close')}/>
                 <ul className="flex gap-4">
                   <h2 className="mobiLogo font-bold text-4xl">tenAfric</h2>

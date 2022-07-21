@@ -3,7 +3,7 @@
   height: -moz-min-content;
   height: min-content;
   padding: 5% 0;
-  background: var(--color--white);
+  background: var(--bg-color);
 }
 .specialization .specWrapper {
   margin: 0 5%;
