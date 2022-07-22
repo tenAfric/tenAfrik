@@ -1,12 +1,39 @@
-.cookiesContent{
-    margin: 3% 8%;
-    padding-top: 5%;
-    .cookTitle{
-        font-weight: 700;
+.terms{
+    color: var(--text-color);
+    margin: 20px 10%;
+    padding-top: 50px;
+    @media(max-width: 480px){
+        margin: 10px 5%;
     }
-    .cookCont{
-        font-size: 1.2rem;
-        font-weight: 300;
-        margin-top: 30px;
+}
+.title{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-color);
+    @media(max-width: 480px){
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+.terms > p{
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-color);
+    margin-bottom: 50px;
+    @media(max-width: 480px){
+        line-height: 2rem;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    a{
+        color: var(--text-color);
+        &:hover{
+            color: #0088f0;
+        }
     }
 }
