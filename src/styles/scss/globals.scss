@@ -15,9 +15,9 @@ html,body{
     border-style: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: var(--bg-color);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-color: var(--bg-color);
+    //background-repeat: no-repeat;
+    //background-position: 50% 0;
     width: 100%;
     color: var(--text-color);
     overflow-x: hidden;
@@ -27,6 +27,9 @@ html,body{
     z-index: 0 !important;
     scroll-behavior: smooth;
     line-height: 1.5;
+}
+.App{
+  background-color: var(--bg-color);
 }
 body{
   &::-webkit-scrollbar {
@@ -71,29 +74,6 @@ input[type=number] {
 /*===hide body scrollbar===*/
 .hideBodyScrollBar{
   overflow: hidden !important;
-}
-
-/*===theme toggler===*/
-[data-theme='light'] {
-  --bg-color: #d6ffef;
-  --bg-color-inverse: #171c28;
-  --text-color: #444452;
-  --text-color-inverse: #e6e6e6;
-  --bg-card: #86d9e1;
-  --back-related: #98b2dd;
-  --toggle-transform: translate(0);
-  transition: 0.5s;
-}
-
-[data-theme='dark'] {
-  --bg-color: #171c28;
-  --bg-color-inverse: #d6ffef;
-  --text-color: #e6e6e6;
-  --text-color-inverse: #444452;
-  --bg-card: #2e2e5b;
-  --back-related: #1e304d;
-  --toggle-transform: translate(120%);
-  transition: 0.5s;
 }
 .contents{
   transition: all 0.2s ease-in-out 0s;

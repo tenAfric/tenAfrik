@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/css/notfound.css'
 import { Link } from "react-router-dom"
 
-const NotFound = () => {
+const NotFound = (props) => {
     const [seconds, setSeconds ] =  useState(10);
     useEffect(()=>{
         let myInterval = setInterval(() => {

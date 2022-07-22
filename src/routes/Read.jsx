@@ -2,10 +2,10 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Read = () => {
+const Read = (props) => {
   return (
     <Fragment>
-        <Header />
+        <Header theme={props.theme} />
         <Footer />
     </Fragment>
   )
