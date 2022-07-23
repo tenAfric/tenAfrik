@@ -44,13 +44,13 @@ const Footer = () => {
               <AngleDown className={(isActive.status&&isActive.header===1)?"angleDown angleRight":"angleDown"} />
             </div>
             <ul className={(isActive.status&&isActive.header===1)?"showFLinks":null}>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/privacy" className="resLinks">Privacy</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/tos" className="resLinks">Terms of Services</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/cookies" className="resLinks">Cookies</Link>
               </li>
             </ul>
@@ -61,16 +61,16 @@ const Footer = () => {
               <AngleDown className={(isActive.status&&isActive.header===2)?"angleDown angleRight":"angleDown"} />
             </div>
             <ul className={(isActive.status&&isActive.header===2)?"showFLinks":null}>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/privacy" className="resLinks">Graphic Design</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/tos" className="resLinks">Database design</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/cookies" className="resLinks">Software development</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/cookies" className="resLinks">Artificial Intelligence</Link>
               </li>
             </ul>
@@ -81,16 +81,16 @@ const Footer = () => {
               <AngleDown className={(isActive.status&&isActive.header===3)?"angleDown angleRight":"angleDown"} />
             </div>
             <ul className={(isActive.status&&isActive.header===3)?"showFLinks":null}>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/" className="resLinks">Home</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/about" className="resLinks">About us</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/services" className="resLinks">Services</Link>
               </li>
-              <li className="mb-2">
+              <li className="mb-2" onClick={()=>{window.scrollTo(0, 0)}}>
                 <Link to="/contact" className="resLinks">Contact Us</Link>
               </li>
             </ul>
