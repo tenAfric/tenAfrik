@@ -1,0 +1,110 @@
+.tenContact {
+  margin: 0 5%;
+  height: 90vh;
+}
+.tenContact .tenCWrapper {
+  width: 100%;
+  height: 100%;
+}
+.tenContact .tenCWrapper .tenCFlexAssets {
+  width: 50%;
+  height: 100%;
+}
+.tenContact .tenCWrapper .tenCFlexCont {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--text-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup {
+  position: relative;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup:last-child {
+  margin-bottom: 0;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #383838;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contInput:focus ~ .contPlaceH {
+  position: absolute;
+  top: -25px;
+  left: 7px;
+  z-index: 5;
+  opacity: 1;
+  transition: 0.2s ease all;
+  color: var(--text-color);
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contInHasCont {
+  background-color: #ffdba6;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contPlacePush {
+  position: absolute;
+  top: -25px;
+  left: 7px;
+  z-index: 5;
+  opacity: 1;
+  transition: 0.2s ease all;
+  color: var(--text-color);
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contPlaceH {
+  pointer-events: none;
+  position: absolute;
+  display: flex;
+  top: 5px;
+  left: 10px;
+  z-index: 5;
+  opacity: 0.5;
+  transition: 0.2s ease all;
+  color: #000;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contPlaceH span {
+  color: red;
+  margin-left: 5px;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup textarea {
+  min-height: 80px;
+}
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup .contSubBtn {
+  background: var(--color--vivid-cyan-blue);
+  border-radius: 4px;
+  padding: 9px 23px 11px;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}/*# sourceMappingURL=contact.css.map */
