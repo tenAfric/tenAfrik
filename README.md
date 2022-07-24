@@ -1,3 +1,1 @@
 # tenAfrik
-
-kibet from linux
