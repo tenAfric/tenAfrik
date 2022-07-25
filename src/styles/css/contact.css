@@ -39,6 +39,12 @@
   margin-bottom: 30px;
   color: var(--text-color);
 }
+.tenContact .tenCWrapper .tenCFlexCont .contactForm .formNotify {
+  margin-top: -35px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--text-color);
+}
 .tenContact .tenCWrapper .tenCFlexCont .contactForm .contGroup {
   position: relative;
   width: 100%;
