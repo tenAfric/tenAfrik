@@ -1,10 +1,16 @@
 import axios from "axios"
 
-export const api = axios.create({
-    baseURL: 'https://api.tenafric.com'
-})
+let baseURL = 'http://localhost:8000/'
 
-export const getPosts = async () => {
-    const response = await api.get('/blogs')
+export const api = async (method = 'GET', slug = '', data = {}) => {
+    let config = {
+        method: method,
+        url: baseURL+slug,
+        headers: { 
+            'Content-Type': 'application/json'
+        },
+        data : JSON.stringify(data)
+    };
+    const response = await axios(config)
     return response.data
 }
