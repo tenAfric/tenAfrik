@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../styles/css/blog.css'
-import data from '../data/blogdata.json'
+import { api } from '../api/axios'
 import { Link } from 'react-router-dom'
 import { ReactComponent as ArrowRight } from '../assets/svg/arrowRight.svg'
 import { ReactComponent as Search } from '../assets/svg/search.svg'
@@ -12,18 +12,27 @@ import Agility from '../assets/images/agility.png'
 import African from '../assets/images/african_lady.jpg'
 
 const Blog = (props) => {
+    const [data, setData] = useState({blogs: []})
+    //get data
+    let getData = async () => {
+        let res = await api('GET', 'blog', {})
+        setData(res)
+    }
+    useEffect(()=>{
+        getData()
+    }, [])
     const [search, setSearch] = useState(false)
     const [query, setQuery] = useState('')
     const [posts, setPosts] = useState(data.blogs)
     const showSearch = () => {
         // hide body scroll bar
-        document.querySelector('.parentEl').classList.add('hideBodyScrollBar');
         setSearch(true)
+        document.querySelector('.parentEl').classList.add('hideBodyScrollBar');
     }
     const closeSearch = () => {
         // show body scroll bar
-        document.querySelector('.parentEl').classList.remove('hideBodyScrollBar');
         setSearch(false)
+        document.querySelector('.parentEl').classList.remove('hideBodyScrollBar');
     }
     const handleDat = (e) => {
         setQuery(e.target.value)
