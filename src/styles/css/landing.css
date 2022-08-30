@@ -22,7 +22,7 @@
 }
 .landing .landing-section .landing-wrapper {
   height: 100%;
-  margin: 0 5%;
+  margin: 0 10%;
   justify-content: space-between;
   position: relative;
 }
@@ -32,7 +32,7 @@
   }
 }
 .landing .landing-section .landing-wrapper .landing-texts {
-  width: 50%;
+  width: 40%;
   margin: 0 !important;
   position: absolute;
   top: 10%;
@@ -50,7 +50,7 @@
   }
 }
 .landing .landing-section .landing-wrapper .landing-texts .landing-txt-header {
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.2;
   color: var(--text-color);
   margin-bottom: 30px;
@@ -75,9 +75,9 @@
 .landing .landing-section .landing-wrapper .landing-image {
   margin: 0 !important;
   position: absolute;
-  top: 20%;
+  top: 13%;
   right: -5%;
-  width: 40%;
+  width: 50%;
   padding-right: 10%;
 }
 @media (max-width: 480px) {

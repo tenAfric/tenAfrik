@@ -17,7 +17,7 @@ const Landing = (props) => {
         </Helmet>
       <div className="h-screen landing">
         <Header className="lHeader" theme={props.theme} />
-        <div className="landing-section mt-16">
+        <div className="landing-section mt-10">
           <div className="landingBgOne">
             <div className="bGOneUnskew">
               <Hex className="bgHex" />
