@@ -3,11 +3,12 @@
 }
 
 .header {
-  position: relative;
+  position: fixed;
   top: 0;
   z-index: 999;
   background-color: var(--bg-color);
   border-bottom: 1px solid #cbcbcb;
+  width: 100%;
 }
 @media (min-width: 1440px) {
   .header .header-container {

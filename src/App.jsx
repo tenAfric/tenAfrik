@@ -57,8 +57,8 @@ const App =() => {
           <div className="themeControls">
             <div className="themeTogglers" title="change theme">
               {(theme==='light')?
-              <Sun className="lightMode" onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} />:
-              <Moon className="darkMode"  onClick={()=>{toggleTheme('dark'); window.scrollTo(0, 0);}} />}
+              <Sun className="lightMode" onClick={()=>{toggleTheme('light');}} />:
+              <Moon className="darkMode"  onClick={()=>{toggleTheme('dark');}} />}
             </div>
           </div>
           <CookieConsent

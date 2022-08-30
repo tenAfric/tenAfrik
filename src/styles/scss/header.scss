@@ -5,11 +5,12 @@ $colorLight: #f3f3f3;
     height: 40px;
 }
 .header{
-    position: relative;
+    position: fixed;
     top: 0;
     z-index: 999;
     background-color: var(--bg-color);
     border-bottom: 1px solid #cbcbcb;
+    width: 100%;
     .header-container{
         @media(min-width: 1440px) {
             margin: 0 10%;

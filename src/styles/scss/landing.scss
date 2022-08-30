@@ -16,33 +16,33 @@ $bgDarkDark: #010f25;
         width: 100%;
     }
     .landing-section{
-        height: 100vh;
+        height: 60vh;
         @media(max-width: 480px){
             margin-top: 0 !important;
         }
         .landing-wrapper{
             height: 100%;
-            margin: 0 5%;
+            margin: 0 10%;
             justify-content: space-between;
             position: relative;
             @media(max-width: 480px){
                 margin: 0;
             }
             .landing-texts{
-                width: 50%;
+                width: 40%;
                 margin: 0 !important;
                 position: absolute;
-                top: 10%;
+                top: 15%;
                 left: 5%;
                 @media(min-width: 1440px){
-                    top: 10%;
+                    top: 15%;
                 }
                 @media(max-width: 480px){
                     width: 90%;
                     margin-top: 20px;
                 }
                 .landing-txt-header{
-                    font-weight: 600;
+                    font-weight: 900;
                     line-height: 1.2;
                     color: var(--text-color);
                     margin-bottom: 30px;
@@ -66,13 +66,13 @@ $bgDarkDark: #010f25;
             .landing-image{
                 margin: 0 !important;
                 position: absolute;
-                top: 20%;
+                top: 13%;
                 right: -5%;
+                width: 50%;
+                padding-right: 10%;
                 @media(max-width: 480px){
                     display: none !important;
                 }
-                width: 40%;
-                padding-right: 10%;
                 .codeplayArea{
                     background-color: var(--gradient--pale-ocean);
                     padding: 10px;
@@ -91,10 +91,10 @@ $bgDarkDark: #010f25;
         }
         .landingBgOne{
             top: 0;
-            height: 100vh;
-            background-color: var(--bg-color);
+            height: 60vh;
+            background-color: transparent !important;
             width: 65%;
-            z-index: 0;
+            z-index: 0 !important;
             margin: 0 0 0 -10%;
             -webkit-transform: skew(-20deg);
             -moz-transform: skew(-20deg);
@@ -121,7 +121,7 @@ $bgDarkDark: #010f25;
             }
         }
         .landingBgTwo{
-            top: 20%;
+            top: 50%;
             right: 20%;
             .BgTwoHex{
                 

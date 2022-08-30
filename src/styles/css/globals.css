@@ -69,7 +69,7 @@ html, body {
 }
 /*===theme toggler===*/
 [data-theme=light] {
-  --bg-color: #d6ffef;
+  --bg-color: #f2fffa;
   --bg-color-inverse: #171c28;
   --text-color: #444452;
   --text-color-inverse: #e6e6e6;
@@ -166,7 +166,7 @@ input[type=number] {
 }
 
 .themeControls {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   top: 0;
   left: 0;
