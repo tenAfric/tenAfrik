@@ -55,9 +55,11 @@ const App =() => {
         {/* contents */}
         <div className={(preloader)?"hidecontents":"contents"}>
           <div className="themeControls">
-              <Sun className="lightMode" />
-              <div onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} className="themeToggle"><span className="toggleButton"></span></div>
-              <Moon className="darkMode" />
+            <div className="themeTogglers" title="change theme">
+              {(theme==='light')?
+              <Sun className="lightMode" onClick={()=>{toggleTheme('light'); window.scrollTo(0, 0);}} />:
+              <Moon className="darkMode"  onClick={()=>{toggleTheme('dark'); window.scrollTo(0, 0);}} />}
+            </div>
           </div>
           <CookieConsent
             disableStyles={true}

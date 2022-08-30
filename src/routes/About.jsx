@@ -6,6 +6,9 @@ const About = (props) => {
   return (
     <Fragment>
         <Header theme={props.theme} />
+          <div className="aboutPage">
+            
+          </div>
         <Footer />
     </Fragment>
   )
