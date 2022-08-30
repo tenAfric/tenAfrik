@@ -4,7 +4,7 @@ import '../styles/css/landing.css'
 import Helmet from 'react-helmet'
 import { ReactComponent as LandingImg } from '../assets/svg/landing.svg'
 import { Link } from 'react-router-dom'
-import { ReactComponent as Hex } from '../assets/svg/home-hex.svg'
+// import { ReactComponent as Hex } from '../assets/svg/home-hex.svg'
 
 const Landing = (props) => {                                             
   // const randColor = () =>  {
@@ -19,9 +19,9 @@ const Landing = (props) => {
         <Header className="lHeader" theme={props.theme} />
         <div className="landing-section mt-10">
           <div className="landingBgOne">
-            <div className="bGOneUnskew">
+            {/* <div className="bGOneUnskew">
               <Hex className="bgHex" />
-            </div>
+            </div> */}
           </div>
           <div className="landingBgTwo">
             <div className="BgTwoHex"></div>
