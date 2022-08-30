@@ -1,6 +1,6 @@
 .footer{
     height: min-content;
-    background: var(--bg-color-inverse);
+    background: var(--bg-color);
     .footerWrapper{
         margin: 5%;
         margin-top: 0;
@@ -18,10 +18,10 @@
             }
             h1{
                 font-weight: 700;
-                color: var(--text-color-inverse);
+                color: var(--text-color);
             }
             p{
-                color: var(--text-color-inverse);
+                color: var(--text-color);
             }
             .socialIcons{
                 .socLinks{
@@ -50,7 +50,7 @@
                 justify-content: space-between;
                 .fResources{
                     font-weight: 900;
-                    color: var(--text-color-inverse);
+                    color: var(--text-color);
                 }
                 .angleDown{
                     fill: #fff;
@@ -74,7 +74,7 @@
                 }
                 li{
                     margin-bottom: 1rem;
-                    color: var(--text-color-inverse);
+                    color: var(--text-color);
                 }
             }
             .showFLinks{
@@ -94,7 +94,7 @@
         p{
             text-align: center;
             padding-bottom: 20px;
-            color: var(--text-color-inverse);
+            color: var(--text-color);
             span{
                 span{
                     a{
