@@ -59,7 +59,7 @@
   height: auto;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(rgba(6, 0, 1, 0.5), rgba(6, 0, 77, 0.6));
+  background: #ffffff;
   border-radius: 10px;
   padding: 20px;
   position: relative;
@@ -71,7 +71,7 @@
   transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 }
 .specialization .specWrapper .specCards .specCrds:hover {
-  background: rgb(100, 105, 98) !important;
+  background: rgb(212, 255, 195) !important;
 }
 @media (max-width: 1000px) {
   .specialization .specWrapper .specCards .specCrds {
@@ -81,7 +81,6 @@
 .specialization .specWrapper .specCards .specCrds::before {
   pointer-events: none;
   content: "";
-  background: linear-gradient(130deg, rgba(2, 92, 98, 0.7529411765), rgba(2, 92, 98, 0.7529411765) 41.07%, #000000 76.05%);
   position: absolute;
   top: 0;
   left: 0;
@@ -92,8 +91,8 @@
   z-index: 2;
 }
 .specialization .specWrapper .specCards .specCrds .crdsTitle {
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 900;
   line-height: 1.2 !important;
   letter-spacing: 1.1px;
   margin-top: 5px;
@@ -102,7 +101,7 @@
   background: inherit;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #ffffff;
+  color: var(--text-color);
   font: 900 5vmin/3rem cookie, cursive;
 }
 @media (max-width: 480px) {
@@ -113,7 +112,7 @@
 .specialization .specWrapper .specCards .specCrds p {
   font-size: 1rem;
   margin-bottom: 50px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 .specialization .specWrapper .specCards .specCrds .specKnowMore {
   position: absolute;

@@ -47,7 +47,7 @@
                 width: 100%;
                 overflow: hidden;
                 //background: linear-gradient(45deg, #6E6BFF, #4A48B9);
-                background: linear-gradient(rgba(6, 0, 1, 0.5),rgba(6, 0, 77, 0.6));
+                background: #ffffff;
                 border-radius: 10px;
                 padding: 20px;
                 position: relative;
@@ -58,7 +58,7 @@
                 box-shadow: rgba(0, 0, 0, 6%) 0px 1px 18px 0px, rgba(0, 0, 0, 10%) 0px 3px 5px -1px;
                 transition: all 800ms cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
                 &:hover{
-                    background: rgb(100, 105, 98) !important;
+                    background: rgb(212, 255, 195) !important;
                 }
                 @media(max-width: 1000px){
                     grid-column:span 2;
@@ -66,7 +66,7 @@
                 &::before{
                     pointer-events: none;
                     content: "";
-                    background: linear-gradient(130deg,#025c62c0,#025c62c0 41.07%,#000000 76.05%);
+                    //background: linear-gradient(130deg,#025c62c0,#025c62c0 41.07%,#000000 76.05%);
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -77,8 +77,8 @@
                     z-index: 2;
                 }
                 .crdsTitle{
-                    font-size: 1.7rem;
-                    font-weight: 700;
+                    font-size: 1.5rem;
+                    font-weight: 900;
                     line-height: 1.2 !important;
                     letter-spacing: 1.1px;
                     margin-top: 5px;
@@ -87,7 +87,7 @@
                     background: inherit;
                     -webkit-background-clip: text;
                             background-clip: text;
-                    color: #ffffff;
+                    color: var(--text-color);
                     font: 900 5vmin/3rem cookie, cursive;
                     //filter: invert(1) grayscale(1) contrast(9);
                     @media(max-width: 480px){
@@ -97,7 +97,7 @@
                 p{
                     font-size: 1rem;
                     margin-bottom: 50px;
-                    color: #ffffff;
+                    color: var(--text-color);
                 }
                 .specKnowMore{
                     position: absolute;
