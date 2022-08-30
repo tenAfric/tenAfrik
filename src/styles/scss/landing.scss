@@ -16,7 +16,7 @@ $bgDarkDark: #010f25;
         width: 100%;
     }
     .landing-section{
-        height: 100vh;
+        height: 60vh;
         @media(max-width: 480px){
             margin-top: 0 !important;
         }
@@ -32,10 +32,10 @@ $bgDarkDark: #010f25;
                 width: 40%;
                 margin: 0 !important;
                 position: absolute;
-                top: 10%;
+                top: 15%;
                 left: 5%;
                 @media(min-width: 1440px){
-                    top: 10%;
+                    top: 15%;
                 }
                 @media(max-width: 480px){
                     width: 90%;
@@ -91,10 +91,10 @@ $bgDarkDark: #010f25;
         }
         .landingBgOne{
             top: 0;
-            height: 100vh;
-            background-color: var(--bg-color);
+            height: 60vh;
+            background-color: transparent !important;
             width: 65%;
-            z-index: 0;
+            z-index: 0 !important;
             margin: 0 0 0 -10%;
             -webkit-transform: skew(-20deg);
             -moz-transform: skew(-20deg);
@@ -121,7 +121,7 @@ $bgDarkDark: #010f25;
             }
         }
         .landingBgTwo{
-            top: 20%;
+            top: 50%;
             right: 20%;
             .BgTwoHex{
                 

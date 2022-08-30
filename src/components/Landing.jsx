@@ -15,7 +15,7 @@ const Landing = (props) => {
         <Helmet>
           <title>Home | tenAfric</title>
         </Helmet>
-      <div className="h-screen landing">
+      <div className="landing">
         <Header className="lHeader" theme={props.theme} />
         <div className="landing-section mt-10">
           <div className="landingBgOne">
