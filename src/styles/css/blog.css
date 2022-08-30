@@ -45,6 +45,7 @@
   position: absolute;
   top: 20px;
   right: 30px;
+  cursor: pointer;
 }
 .searchModal .smodSearchForm {
   width: 100%;
@@ -87,6 +88,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 4%;
+  gap: 1rem;
 }
 .searchModal .highflex .highblogcard {
   width: 380px;

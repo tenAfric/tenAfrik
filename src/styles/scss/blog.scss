@@ -38,6 +38,7 @@
         position: absolute;
         top: 20px;
         right: 30px;
+        cursor: pointer;
     }
     .smodSearchForm{
         width: 100%;
@@ -74,6 +75,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 4%;
+        gap: 1rem;
         .highblogcard{
             width: 380px;
             overflow: hidden;

@@ -54,7 +54,7 @@
                         padding: 5px 10px;
                         border-radius: 6px;
                         width: 100%;
-                        border: none;
+                        border: 1px solid var(--text-color);
                         outline: none;
                         color: #383838;
                         &:focus ~ .contPlaceH{
